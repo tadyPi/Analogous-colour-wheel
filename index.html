@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Wheel Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <rel="stylesheet" href="style.css">
+        <style>
+            #color-wheel {
+                display: block;
+                margin: 0 auto;
+                border-radius: 50%;
+            }
+
+            #color-boxes {
+                display: flex;
+                justify-content: space-around; /* or space-between */
+                align-items: center;
+                padding: 20px;
+                margin: none;
+            }
+
+            .color-box {
+                width: 100px;
+                height: 50px;
+                border: 2px solid black;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="app-container">
+            <h1 style="text-align: center; font-weight: bolder;">Analogous Project</h1>
+            <canvas id="color-wheel" class="canvas1" width="200" height="200"></canvas>
+            <div id="color-boxes">
+                <div class="grouping">
+                <div id="current-color" class="color-box"></div>
+                <div id="complementary-color" class="color-box"></div>
+                <div id="complementary-color1" class="color-box"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
