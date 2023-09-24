@@ -1,1 +1,1 @@
-# Analogous-color-wheel using, HTML CSS and Javascript project needs editing to return the second different colour after the click event.
+# Analogous-colour-wheel, using HTML CSS and Javascript. Project needs editing to return the second colour which should be a slightly different colour than the current colour and the 1st analogous colour. which click event should trigger.
