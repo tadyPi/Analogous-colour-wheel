@@ -104,3 +104,41 @@ h5 {
     cursor: pointer;
 
 }
+
+/* Default styles */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50em;
+    width: 20vw;
+    background-color: rgb(25, 25, 25);
+    border: 1px solid #fcfdfd;
+    position: relative;
+    left: 50vw;
+    transform: translate(-50%, -0%);
+    margin-top: 4em;
+}
+
+@media (max-width: 1200px) {
+    .app-container {
+        width: 35vw;
+    }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .app-container {
+        width: 35vw;
+    }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 576px) {
+    .app-container {
+        width: 35vw;
+        height: 95vh;
+        margin-top: 0;
+    }
+}
