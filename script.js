@@ -6,8 +6,8 @@ const radius = canvas.width / 2 - 15; // modified radius to be slightly smaller
 
 // draw the outer circle with a slightly larger radius and a different color to create the border effect
 context.beginPath();
-context.arc(centerX, centerY, radius + 2, 0, 2 * Math.PI);
-context.strokeStyle = "#fcfdfd";
+context.arc(centerX, centerY, radius + 0, 0, 0 * Math.PI);
+context.strokeStyle = "#1a1a1a";
 context.lineWidth = 1;
 context.stroke();
 
