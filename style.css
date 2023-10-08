@@ -195,29 +195,40 @@ h6 {
 
 @media (max-width: 1200px) {
     .app-container {
-        width: 35vw;
+        width: 360px;
     }
 }
 
 /* Media query for screens smaller than 1200px */
 @media (max-width: 992px) {
     .app-container {
-        width: 50vw;
+        width: 360px;
     }
 }
 
 /* Media query for screens smaller than 992px */
 @media (max-width: 768px) {
     .app-container {
-        width: 70vw;
+        width: 360px;
     }
 }
 
 /* Media query for screens smaller than 576px */
 @media (max-width: 576px) {
     .app-container {
-        width: 90vw;
-        height: 95vh;
-        margin-top: 0;
+        width: 360px;
     }
+}
+
+/* Media query for screens smaller than 375px */
+@media (max-width: 375px) {
+    .app-container {
+        width: 360px;
+
+    }
+}
+
+.app-container {
+    width: 360px;
+    margin-top: 5em;
 }
