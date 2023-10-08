@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #1a1a1a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -13,26 +16,39 @@ body {
 }
 
 h2 {
-    color: rgb(57, 20, 122);
+    color: rgb(139, 103, 202);
     font-family: Poppins, sans-serif;
     position: absolute;
-    top: 7em;
+    /* top: 1em; */
     left: 1em;
     text-stroke: 2px black;
-    border: 1px solid #171717;
-    padding: 8px;
+    border: 1px solid rgb(252, 253, 253, 0.5);
+    padding: 16px;
 }
 
 .design-dev {
-    color: rgb(57, 20, 122);
+    color: rgb(34, 86, 219);
     font-family: Poppins, sans-serif;
     position: absolute;
-    top: 9em;
-    left: 2em;
+    top: 3.5em;
+    left: 1em;
     text-stroke: 2px black;
-    border: 1px solid #171717;
-    padding: 8px;
+    border: 1px solid rgb(252, 253, 253, 0.5);
+    padding: 16px;
 }
+
+.stack {
+    color: rgb(218, 95, 185);
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    width: 20vw;
+    top: 7em;
+    left: 1em;
+    text-stroke: 2px black;
+    border: 1px solid rgb(252, 253, 253, 0.5);
+    padding: 16px;
+}
+
 
 
 .app-container {
@@ -43,7 +59,7 @@ h2 {
     height: 360px;
     width: 800px;
     background: url(Dark-textured.jpg), rgb(21, 21, 21) 50% / cover no-repeat;
-    border: 1px solid #fcfdfd;
+    border: 1px solid hwb(180 99% 1%);
     position: relative;
     left: 50vw;
     transform: translate(-50%, -0%);
@@ -56,7 +72,7 @@ h2 {
 
 
 h1 {
-    color: #fcfdfd;
+    color: #1a1a1a;
     margin-top: 4em;
     text-align: center;
     font-weight: bolder;
@@ -65,7 +81,10 @@ h1 {
     border: 1px solid rgb(252, 253, 253, 0.5);
     padding: 8px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
+    background-color: #fcfdfd;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -155,23 +174,23 @@ h5 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50em;
+    height: 51em;
     width: 20vw;
     background-color: rgb(25, 25, 25);
-    border: 1px solid #fcfdfd;
+    border: 1px solid rgb(252, 253, 253, 0.5);
     position: relative;
     left: 50vw;
     transform: translate(-50%, -0%);
-    margin-top: 1em;
+    margin-top: 5em;
 }
 
 h6 {
     position: absolute;
-    bottom: -32px;
+    bottom: -28px;
     left: 10px;
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 0.84);
     width: 100px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 @media (max-width: 1200px) {
@@ -180,17 +199,24 @@ h6 {
     }
 }
 
-/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 1200px */
+@media (max-width: 992px) {
+    .app-container {
+        width: 50vw;
+    }
+}
+
+/* Media query for screens smaller than 992px */
 @media (max-width: 768px) {
     .app-container {
-        width: 35vw;
+        width: 70vw;
     }
 }
 
 /* Media query for screens smaller than 576px */
 @media (max-width: 576px) {
     .app-container {
-        width: 35vw;
+        width: 90vw;
         height: 95vh;
         margin-top: 0;
     }
