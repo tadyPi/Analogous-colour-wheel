@@ -1,10 +1,10 @@
 body {
     background: linear-gradient(hsl(0, 2%, 10%), hsl(286, 89%, 4%));
-
-    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     width: 100%;
-    height: 1000px;
+    height: 62rem;
     position: relative;
 
 }
@@ -17,8 +17,7 @@ h2 {
     color: #fcfcfc;
     font-family: Poppins, sans-serif;
     position: absolute;
-    top: -5em;
-    position: absolute;
+    top: -3em;
     left: 50%;
     transform: translateX(-50%);
     margin: 4em 0 4em 0;
@@ -55,24 +54,6 @@ h2 {
 
 
 
-.app-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 360px;
-    width: 800px;
-    background: linear-gradient(to top, #1a1a1a, #1a1a1a);
-    border: 1px solid hwb(180 99% 1%);
-    position: relative;
-    left: 50vw;
-    transform: translate(-50%, -0%);
-    /* margin-top: 4em; */
-    /* background-image: url("Dark-carbon.jpg");
-    background-size: cover;
-    background-position: center; */
-
-}
 
 
 h1 {
@@ -184,7 +165,7 @@ h5 {
     border: 1px solid rgb(252, 253, 253, 0.5);
     position: relative;
     left: 50vw;
-    top: 6em;
+    top: 10em;
     transform: translate(-50%, -0%);
 }
 
