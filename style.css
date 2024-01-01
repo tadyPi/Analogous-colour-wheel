@@ -1,69 +1,63 @@
 body {
-    background: linear-gradient(hsl(0, 2%, 10%), hsl(286, 89%, 4%));
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(hsl(180, 7%, 16%), hsl(287, 22%, 67%));
     padding: 0;
+    margin: 0;
     width: 100%;
-    height: 62rem;
-    position: relative;
+    height: 55rem;
+
 
 }
 
-.text-block {
+/* Default styles */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 41em;
     width: 20vw;
+    background-color: rgb(25, 25, 25);
+    border: 1px solid rgb(252, 253, 253, 0.5);
+    position: relative;
+    left: 50%;
+    top: 10em;
+    transform: translate(-50%, -0%);
 }
 
 h2 {
-    color: #fcfcfc;
+    color: #fcfdfd;
     font-family: Poppins, sans-serif;
     position: absolute;
-    top: -3em;
+    top: 0.5em;
     left: 50%;
     transform: translateX(-50%);
-    margin: 4em 0 4em 0;
-    border: 1px solid rgb(252, 253, 253, 0.3);
+    /* margin: 4em 0 4em 0; */
+    /* border: 1px solid rgb(252, 253, 253, 0.3); */
     padding: 16px;
-    font-size: 24px;
+    font-size: 40px;
     border-radius: 5px;
-
-
 }
 
 .design-dev {
-    color: rgb(34, 86, 219);
-    font-family: Poppins, sans-serif;
+    color: rgb(99, 127, 127);
+    font-family: sans-serif;
+    font-size: 14px;
     position: absolute;
-    top: 3.5em;
-    left: 1em;
-    text-stroke: 2px black;
-    border: 1px solid rgb(252, 253, 253, 0.5);
-    padding: 16px;
+    top: 5rem;
+    left: 52.8%;
+    transform: translateX(-50%);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    padding: 8px;
 }
-
-.stack {
-    color: rgb(218, 95, 185);
-    font-family: Poppins, sans-serif;
-    position: absolute;
-    width: 20vw;
-    top: 7em;
-    left: 1em;
-    text-stroke: 2px black;
-    border: 1px solid rgb(252, 253, 253, 0.5);
-    padding: 16px;
-}
-
-
-
-
 
 h1 {
     color: #1a1a1a;
-    margin-top: 1em;
+    /* margin-top: 1em; */
     text-align: center;
-    font-weight: bolder;
+    /* font-weight: bold; */
     -webkit-text-stroke: .5px rgb(36, 37, 36);
     text-stroke: 0.5px black;
-    border: 1px solid rgb(252, 253, 253, 0.5);
+    /* border: 1px solid rgb(252, 253, 253, 0.5); */
     padding: 8px;
     font-size: 16px;
     font-weight: bolder;
@@ -153,21 +147,6 @@ h5 {
 
 }
 
-/* Default styles */
-.app-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 41em;
-    width: 20vw;
-    background-color: rgb(25, 25, 25);
-    border: 1px solid rgb(252, 253, 253, 0.5);
-    position: relative;
-    left: 50vw;
-    top: 10em;
-    transform: translate(-50%, -0%);
-}
 
 h6 {
     position: absolute;
@@ -175,45 +154,287 @@ h6 {
     left: 10px;
     color: rgba(255, 255, 255, 0.84);
     width: 100px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bolder;
 }
 
-@media (max-width: 1200px) {
-    .app-container {
-        width: 360px;
-    }
-}
+/* Media query for screens larger than 1200px */
+@media (min-width: 1200px) {}
 
 /* Media query for screens smaller than 1200px */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 90rem;
+    }
+
     .app-container {
         width: 360px;
+        top: 12%;
+        left: 24%;
+        margin-left: 25%;
+    }
+
+    h2 {
+        font-size: 40px;
+        white-space: nowrap;
+        /* top: 1em; */
+    }
+
+    .design-dev {
+        font-size: 8px;
+        top: 4.7rem;
+        left: 57.2%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+
     }
 }
 
 /* Media query for screens smaller than 992px */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 78rem;
+    }
+
     .app-container {
         width: 360px;
+        top: 8%;
+        left: 24%;
+        margin-left: 25%;
+    }
+
+    h2 {
+        font-size: 32px;
+        white-space: nowrap;
+        top: 0.1em;
+    }
+
+    .design-dev {
+        font-size: 7px;
+        top: 3.3rem;
+        left: 57.4%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+
+    }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 75rem;
+    }
+
+    .app-container {
+        width: 360px;
+        top: 9%;
+        left: 7%;
+        /* margin-left: 25%; */
+    }
+
+    h2 {
+        font-size: 32px;
+        white-space: nowrap;
+        top: 0.1em;
+        left: 33%;
+        translate: translateX(-50%);
+    }
+
+    .design-dev {
+        font-size: 8px;
+        top: 3.5rem;
+        left: 33%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+
     }
 }
 
 /* Media query for screens smaller than 576px */
 @media (max-width: 576px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 64rem;
+    }
+
     .app-container {
         width: 360px;
+        top: 9%;
+        left: 25%;
+        /* margin-left: 5rem; */
+    }
+
+    h2 {
+        font-size: 24px;
+        white-space: nowrap;
+        top: 0.1em;
+    }
+
+    .design-dev {
+        font-size: 8px;
+        top: 2.5rem;
+        left: 56%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+
     }
 }
 
 /* Media query for screens smaller than 375px */
 @media (max-width: 375px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 55rem;
+    }
+
     .app-container {
         width: 360px;
+        top: 9%;
+        margin-left: 4.6em;
+        height: 47em;
+    }
+
+    h2 {
+        font-size: 24px;
+        white-space: nowrap;
+        top: 0.1em;
+    }
+
+    .design-dev {
+        font-size: 8px;
+        top: 2.5rem;
+        left: 58%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
 
     }
 }
 
-.app-container {
-    width: 360px;
-    margin-top: 5em;
+/* Media query for screens smaller than 320px */
+@media (max-width: 320px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 49rem;
+    }
+
+    .app-container {
+        width: 320px;
+        /* top: 9%; */
+        left: 12%;
+        margin-left: 6em;
+    }
+
+    h2 {
+        font-size: 24px;
+        white-space: nowrap;
+
+    }
+
+    .design-dev {
+        font-size: 8px;
+        top: 2.5rem;
+        left: 58%;
+        color: rgb(189, 166, 213);
+    }
+
+    h1 {
+        position: absolute;
+        top: 1.6em;
+        background-color: rgb(39, 44, 44);
+        color: #fcfdfd;
+        padding: 8px 16px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+        border-radius: 5px;
+
+    }
+
+    h6 {
+        position: absolute;
+        left: 1.1em;
+        color: rgba(255, 255, 255, 0.84);
+        width: 100px;
+        font-size: 14px;
+        font-weight: bolder;
+    }
 }
