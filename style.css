@@ -1,11 +1,9 @@
 body {
-    background: linear-gradient(hsl(180, 7%, 16%), hsl(287, 22%, 67%));
+    background: linear-gradient(hsl(190, 37%, 16%), hsl(190, 7%, 16%));
     padding: 0;
     margin: 0;
     width: 100%;
     height: 55rem;
-
-
 }
 
 /* Default styles */
@@ -20,7 +18,7 @@ body {
     border: 1px solid rgb(252, 253, 253, 0.5);
     position: relative;
     left: 50%;
-    top: 10em;
+    top: 22%;
     transform: translate(-50%, -0%);
 }
 
@@ -31,8 +29,6 @@ h2 {
     top: 0.5em;
     left: 50%;
     transform: translateX(-50%);
-    /* margin: 4em 0 4em 0; */
-    /* border: 1px solid rgb(252, 253, 253, 0.3); */
     padding: 16px;
     font-size: 40px;
     border-radius: 5px;
@@ -46,18 +42,14 @@ h2 {
     top: 5rem;
     left: 52.8%;
     transform: translateX(-50%);
-    /* border: 1px solid rgba(0, 0, 0, 0.3); */
     padding: 8px;
 }
 
 h1 {
     color: #1a1a1a;
-    /* margin-top: 1em; */
     text-align: center;
-    /* font-weight: bold; */
     -webkit-text-stroke: .5px rgb(36, 37, 36);
     text-stroke: 0.5px black;
-    /* border: 1px solid rgb(252, 253, 253, 0.5); */
     padding: 8px;
     font-size: 16px;
     font-weight: bolder;
@@ -68,11 +60,6 @@ h1 {
 
 h3 {
     position: relative;
-    /* background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000); */
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .2px rgb(239, 231, 231);
-    text-stroke: 0.5px black; */
     color: #fcfdfd;
     font-size: 16px;
     position: relative;
@@ -88,13 +75,11 @@ h3 {
     width: 245px;
     height: 245px;
     cursor: crosshair;
+    position: relative;
 }
 
 .line-top {
     width: 100%;
-    /* height: 1px; */
-    /* background-color: #fcfdfd; */
-    /* margin-bottom: 1em; */
     position: relative;
     top: -300px;
     border: 0.5px solid rgb(252, 253, 253, 0.5);
@@ -103,13 +88,9 @@ h3 {
 
 .line {
     width: 100%;
-    /* height: 1px; */
-    /* background-color: #fcfdfd; */
-    /* margin-bottom: 1em; */
     position: relative;
     top: -10px;
     border: 1 dotted rgba(255, 255, 255);
-
 }
 
 
@@ -127,12 +108,15 @@ h3 {
 }
 
 h5 {
-    color: rgb(252, 253, 253, 0.75);
+    color: rgb(220, 199, 243);
     font-size: 14px;
     -webkit-text-stroke: .2px rgb(48, 48, 48);
     text-stroke: 0.5px black;
     position: relative;
+}
 
+.color-boxs {
+    border-radius: 3px;
 }
 
 .color-box {
@@ -142,9 +126,6 @@ h5 {
     margin: 10px;
     background-color: #393a3a;
     text-align: center;
-    /* border-radius: 3px; */
-
-
 }
 
 
@@ -159,7 +140,75 @@ h6 {
 }
 
 /* Media query for screens larger than 1200px */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .app-container {
+        width: 370px;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h2 {
+        font-size: 32px;
+        white-space: nowrap;
+        top: 0.1em;
+        left: 50%;
+        translate: translateX(-50%);
+    }
+
+    .design-dev {
+        font-size: 16px;
+        top: 3.5rem;
+        left: 50%;
+        color: rgb(220, 199, 243);
+    }
+
+    h1 {
+        background-color: rgb(39, 44, 44);
+        color: rgb(255, 255, 255);
+        padding: 4px 8px;
+        border: solid 1px rgb(255, 255, 255, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .color-box {
+        background-color: rgb(38, 44, 44);
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -53%;
+        left: 4%;
+        width: 400px;
+        font-size: 1.29em;
+    }
+
+    .Figma {
+        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .vsCode {
+        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+}
+
+
 
 /* Media query for screens smaller than 1200px */
 @media (max-width: 1200px) {
@@ -168,32 +217,33 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 90rem;
     }
 
     .app-container {
-        width: 360px;
-        top: 12%;
-        left: 24%;
-        margin-left: 25%;
+        width: 370px;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 32px;
         white-space: nowrap;
-        /* top: 1em; */
+        top: 0.1em;
+        left: 50%;
+        translate: translateX(-50%);
     }
 
     .design-dev {
-        font-size: 8px;
-        top: 4.7rem;
-        left: 57.2%;
-        color: rgb(189, 166, 213);
+        font-size: 16px;
+        top: 3.5rem;
+        left: 50%;
+        color: rgb(220, 199, 243);
     }
 
     h1 {
         background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
+        color: rgb(255, 255, 255);
         padding: 4px 8px;
         border: solid 1px rgb(255, 255, 255, 0.5);
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -201,7 +251,31 @@ h6 {
 
     .color-box {
         background-color: rgb(38, 44, 44);
+    }
 
+    p {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -53%;
+        left: 4%;
+        width: 300px;
+        font-size: 1.1em;
+    }
+
+    .Figma {
+        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .vsCode {
+        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
     }
 }
 
@@ -212,32 +286,33 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 78rem;
     }
 
     .app-container {
-        width: 360px;
-        top: 8%;
-        left: 24%;
-        margin-left: 25%;
+        width: 370px;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     h2 {
         font-size: 32px;
         white-space: nowrap;
         top: 0.1em;
+        left: 50%;
+        translate: translateX(-50%);
     }
 
     .design-dev {
-        font-size: 7px;
-        top: 3.3rem;
-        left: 57.4%;
-        color: rgb(189, 166, 213);
+        font-size: 16px;
+        top: 3.5rem;
+        left: 50%;
+        color: rgb(220, 199, 243);
     }
 
     h1 {
         background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
+        color: rgb(255, 255, 255);
         padding: 4px 8px;
         border: solid 1px rgb(255, 255, 255, 0.5);
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -245,9 +320,34 @@ h6 {
 
     .color-box {
         background-color: rgb(38, 44, 44);
+    }
 
+    p {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -53%;
+        left: 4%;
+        width: 225px;
+        font-size: 1em;
+    }
+
+    .Figma {
+        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .vsCode {
+        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4em;
+        font-weight: bold;
     }
 }
+
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
@@ -256,28 +356,28 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 75rem;
+        height: 55rem;
     }
 
     .app-container {
-        width: 360px;
-        top: 9%;
-        left: 7%;
-        /* margin-left: 25%; */
+        width: 370px;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     h2 {
         font-size: 32px;
         white-space: nowrap;
         top: 0.1em;
-        left: 33%;
+        left: 50%;
         translate: translateX(-50%);
     }
 
     .design-dev {
-        font-size: 8px;
+        font-size: 16px;
         top: 3.5rem;
-        left: 33%;
+        left: 50%;
         color: rgb(189, 166, 213);
     }
 
@@ -292,6 +392,10 @@ h6 {
     .color-box {
         background-color: rgb(38, 44, 44);
 
+    }
+
+    p {
+        display: none;
     }
 }
 
@@ -302,26 +406,27 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 64rem;
     }
 
     .app-container {
-        width: 360px;
-        top: 9%;
-        left: 25%;
-        /* margin-left: 5rem; */
+        width: 370px;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 32px;
         white-space: nowrap;
         top: 0.1em;
+        left: 50%;
+        translate: translateX(-50%);
     }
 
     .design-dev {
-        font-size: 8px;
-        top: 2.5rem;
-        left: 56%;
+        font-size: 16px;
+        top: 3.5rem;
+        left: 50%;
         color: rgb(189, 166, 213);
     }
 
@@ -338,6 +443,7 @@ h6 {
 
     }
 }
+
 
 /* Media query for screens smaller than 375px */
 @media (max-width: 375px) {
@@ -346,26 +452,27 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 55rem;
     }
 
     .app-container {
-        width: 360px;
-        top: 9%;
-        margin-left: 4.6em;
-        height: 47em;
+        width: 370px;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 32px;
         white-space: nowrap;
         top: 0.1em;
+        left: 50%;
+        translate: translateX(-50%);
     }
 
     .design-dev {
         font-size: 8px;
-        top: 2.5rem;
-        left: 58%;
+        top: 3.5rem;
+        left: 50%;
         color: rgb(189, 166, 213);
     }
 
@@ -383,6 +490,7 @@ h6 {
     }
 }
 
+
 /* Media query for screens smaller than 320px */
 @media (max-width: 320px) {
     body {
@@ -390,51 +498,101 @@ h6 {
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 49rem;
+
+        body {
+            background: hwb(180 15% 83%);
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 55rem;
+        }
+
+        .app-container {
+            width: 370px;
+            top: 13%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        h2 {
+            font-size: 32px;
+            white-space: nowrap;
+            top: 0.1em;
+            left: 50%;
+            translate: translateX(-50%);
+        }
+
+        .design-dev {
+            font-size: 8px;
+            top: 3.5rem;
+            left: 50%;
+            color: rgb(189, 166, 213);
+        }
+
+        h1 {
+            background-color: rgb(39, 44, 44);
+            color: #fcfdfd;
+            padding: 4px 8px;
+            border: solid 1px rgb(255, 255, 255, 0.5);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .color-box {
+            background-color: rgb(38, 44, 44);
+
+        }
     }
+}
 
-    .app-container {
-        width: 320px;
-        /* top: 9%; */
-        left: 12%;
-        margin-left: 6em;
-    }
+/* Media query for screens smaller than 280px */
+@media (max-width: 280px) {
+    body {
+        background: hwb(180 15% 83%);
+        padding: 0;
+        margin: 0;
+        width: 100%;
 
-    h2 {
-        font-size: 24px;
-        white-space: nowrap;
+        body {
+            background: hwb(180 15% 83%);
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 55rem;
+        }
 
-    }
+        .app-container {
+            width: 370px;
+            top: 13%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
 
-    .design-dev {
-        font-size: 8px;
-        top: 2.5rem;
-        left: 58%;
-        color: rgb(189, 166, 213);
-    }
+        h2 {
+            font-size: 32px;
+            white-space: nowrap;
+            top: 0.1em;
+            left: 50%;
+            translate: translateX(-50%);
+        }
 
-    h1 {
-        position: absolute;
-        top: 1.6em;
-        background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
-        padding: 8px 16px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+        .design-dev {
+            font-size: 8px;
+            top: 3.5rem;
+            left: 50%;
+            color: rgb(189, 166, 213);
+        }
 
-    .color-box {
-        background-color: rgb(38, 44, 44);
-        border-radius: 5px;
+        h1 {
+            background-color: rgb(39, 44, 44);
+            color: #fcfdfd;
+            padding: 4px 8px;
+            border: solid 1px rgb(255, 255, 255, 0.5);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
 
-    }
+        .color-box {
+            background-color: rgb(38, 44, 44);
 
-    h6 {
-        position: absolute;
-        left: 1.1em;
-        color: rgba(255, 255, 255, 0.84);
-        width: 100px;
-        font-size: 14px;
-        font-weight: bolder;
+        }
     }
 }
