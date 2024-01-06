@@ -326,273 +326,307 @@ h6 {
         color: rgb(255, 255, 255);
         position: relative;
         top: -53%;
-        left: 4%;
-        width: 225px;
+        left: 14px;
+        width: 210px;
         font-size: 1em;
+
+
+        .Figma {
+            background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        .vsCode {
+            background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
     }
 
-    .Figma {
-        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
+
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 768px) {
+        body {
+            display: flex;
+            background-color: #f08d22;
+            padding: 5%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 8%;
+        }
+
+        .color-boxs {
+            margin: 0px 5px 0px 5px;
+        }
     }
 
-    .vsCode {
-        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
+    /* Media query for screens smaller than 576px */
+    @media (max-width: 576px) {
+        body {
+            display: flex;
+            background-color: #badf42;
+            padding: 5%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 8%;
+        }
+
+        P {
+            display: none;
+        }
+
+        .color-boxs {
+            margin: 0px 5px 0px 5px;
+        }
+    }
+
+
+    /* Media query for screens smaller than 375px */
+    @media (max-width: 375px) {
+        body {
+            display: flex;
+            background-color: #406cda;
+            padding: 5%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        P {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 8%;
+        }
+
+        .color-boxs {
+            margin: 0px 5px 0px 5px;
+        }
+    }
+
+
+    /* Media query for screens smaller than 320px */
+    @media (max-width: 320px) {
+        body {
+            display: flex;
+            background-color: #cc0f0f;
+            padding: 5%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        P {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 8%;
+        }
+
+        .color-boxs {
+            margin: 0px 5px 0px 5px;
+        }
+    }
+
+    /* Media query for screens smaller than 290px */
+    @media (max-width: 290px) {
+        body {
+            display: flex;
+            background-color: #64df8d;
+            padding: 2%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+
+        h2 {
+            display: none;
+        }
+
+        P {
+            display: none;
+        }
+    }
+
+    /* Media query for screens smaller than 280px */
+    @media (max-width: 280px) {
+        body {
+            display: flex;
+            background-color: #a5197b;
+            padding: 2%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    h3 {
+        margin-left: 8%;
+    }
+
+
+    /* Media query for screens smaller than 240px */
+    @media (max-width: 240px) {
+        body {
+            display: flex;
+            background-color: #cc0f0f;
+            padding: 5%;
+            margin: 0;
+            width: 100%;
+            height: 591px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 8%;
+        }
+
+        .color-boxs {
+            margin: 0px 5px 0px 5px;
+        }
     }
 }
 
-
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
+/* Media query for screens smaller than 230px */
+@media (max-width: 230px) {
     body {
-        background: hwb(180 15% 83%);
-        padding: 0;
+        display: flex;
+        background-color: #0fa32a;
+        padding: 5%;
         margin: 0;
+        padding: 16px;
         width: 100%;
-        height: 55rem;
+        height: 591px;
     }
 
+
     .app-container {
-        width: 370px;
-        top: 14%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 0px;
     }
 
     h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
-    }
-
-    .design-dev {
-        font-size: 16px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(189, 166, 213);
-    }
-
-    h1 {
-        background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
-        padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .color-box {
-        background-color: rgb(38, 44, 44);
-
+        display: none;
     }
 
     p {
         display: none;
     }
-}
 
-/* Media query for screens smaller than 576px */
-@media (max-width: 576px) {
-    body {
-        background: hwb(180 15% 83%);
-        padding: 0;
-        margin: 0;
-        width: 100%;
+    h3 {
+        margin-left: 8%;
     }
 
+    .color-boxs {
+        margin: 0px 5px 0px 5px;
+    }
+}
+
+/* Media query for screens smaller than 220px */
+@media (max-width: 220px) {
+    body {
+        display: flex;
+        background-color: #000284;
+        padding: 8%;
+        margin: 0;
+        width: 100%;
+        height: 591px;
+    }
+
+
     .app-container {
-        width: 370px;
-        top: 13%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 0px;
     }
 
     h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
+        display: none;
     }
 
-    .design-dev {
-        font-size: 16px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(189, 166, 213);
+    p {
+        display: none;
     }
 
-    h1 {
-        background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
-        padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    h3 {
+        margin-left: 12%;
     }
 
-    .color-box {
-        background-color: rgb(38, 44, 44);
-
-    }
-}
-
-
-/* Media query for screens smaller than 375px */
-@media (max-width: 375px) {
-    body {
-        background: hwb(180 15% 83%);
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-
-    .app-container {
-        width: 370px;
-        top: 13%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
-    }
-
-    .design-dev {
-        font-size: 8px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(189, 166, 213);
-    }
-
-    h1 {
-        background-color: rgb(39, 44, 44);
-        color: #fcfdfd;
-        padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .color-box {
-        background-color: rgb(38, 44, 44);
-
-    }
-}
-
-
-/* Media query for screens smaller than 320px */
-@media (max-width: 320px) {
-    body {
-        background: hwb(180 15% 83%);
-        padding: 0;
-        margin: 0;
-        width: 100%;
-
-        body {
-            background: hwb(180 15% 83%);
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 55rem;
-        }
-
-        .app-container {
-            width: 370px;
-            top: 13%;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        h2 {
-            font-size: 32px;
-            white-space: nowrap;
-            top: 0.1em;
-            left: 50%;
-            translate: translateX(-50%);
-        }
-
-        .design-dev {
-            font-size: 8px;
-            top: 3.5rem;
-            left: 50%;
-            color: rgb(189, 166, 213);
-        }
-
-        h1 {
-            background-color: rgb(39, 44, 44);
-            color: #fcfdfd;
-            padding: 4px 8px;
-            border: solid 1px rgb(255, 255, 255, 0.5);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .color-box {
-            background-color: rgb(38, 44, 44);
-
-        }
-    }
-}
-
-/* Media query for screens smaller than 280px */
-@media (max-width: 280px) {
-    body {
-        background: hwb(180 15% 83%);
-        padding: 0;
-        margin: 0;
-        width: 100%;
-
-        body {
-            background: hwb(180 15% 83%);
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 55rem;
-        }
-
-        .app-container {
-            width: 370px;
-            top: 13%;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        h2 {
-            font-size: 32px;
-            white-space: nowrap;
-            top: 0.1em;
-            left: 50%;
-            translate: translateX(-50%);
-        }
-
-        .design-dev {
-            font-size: 8px;
-            top: 3.5rem;
-            left: 50%;
-            color: rgb(189, 166, 213);
-        }
-
-        h1 {
-            background-color: rgb(39, 44, 44);
-            color: #fcfdfd;
-            padding: 4px 8px;
-            border: solid 1px rgb(255, 255, 255, 0.5);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .color-box {
-            background-color: rgb(38, 44, 44);
-
-        }
+    .color-boxs {
+        margin: 0px 5px 0px 5px;
     }
 }
