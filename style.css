@@ -419,16 +419,18 @@ h6 {
     @media (max-width: 375px) {
         body {
             display: flex;
-            background-color: #fcfd;
+            background-color: #000000;
             padding: 5%;
             margin: 0;
             width: 100vw;
-            height: 591px;
+            height: 100vh;
         }
 
 
         .app-container {
             margin: 0px;
+            width: 95vw
+            height: 41em;
         }
 
         h2 {
@@ -445,6 +447,7 @@ h6 {
 
         .color-boxs {
             margin: 0px 5px 0px 5px;
+            background-color: #fcfdfd;
         }
     }
 
