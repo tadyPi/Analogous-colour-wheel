@@ -2,8 +2,7 @@ body {
     background: linear-gradient(hsl(190, 37%, 16%), hsl(190, 7%, 16%));
     padding: 0;
     margin: 0;
-    width: 100%;
-    height: 55rem;
+    width: 100vw;
 }
 
 /* Default styles */
@@ -282,10 +281,10 @@ h6 {
 /* Media query for screens smaller than 992px */
 @media (max-width: 992px) {
     body {
-        background: hwb(180 15% 83%);
+        background: hwb(80 15% 83%);
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 100vw;
     }
 
     .app-container {
@@ -420,10 +419,10 @@ h6 {
     @media (max-width: 375px) {
         body {
             display: flex;
-            background-color: #1a1a1a;
+            background-color: #fcfd;
             padding: 5%;
             margin: 0;
-            width: 100%;
+            width: 100vw;
             height: 591px;
         }
 
