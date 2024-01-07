@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(190, 45%, 26%), hsl(190, 7%, 16%));
+    background: linear-gradient(hsl(190, 45%, 26%), hsl(190, 45%, 26%));
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -453,12 +453,61 @@ h6 {
 /* Media query for screens smaller than 375px */
 @media (max-width: 375px) {
     body {
+        body {
+            display: flex;
+            background-color: #000000;
+            padding: 5%;
+            margin: 0;
+            width: 100vw;
+            height: 900px;
+        }
+
+
+        .app-container {
+            margin: 0px;
+            width: 370px;
+            height: 42em;
+            top: 0%;
+        }
+
+        h1 {
+            position: relative;
+            top: -1%;
+            border: none;
+            max-width: 200px;
+            background-color: transparent;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        P {
+            display: none;
+        }
+
+        h3 {
+            top: 1%;
+        }
+
+        .color-boxs {
+            position: relative;
+            margin: 0px 5px 0px 5px;
+            background-color: #1e1e1e;
+        }
+    }
+}
+
+
+/* Media query for screens smaller than 350px */
+@media (max-width: 350px) {
+    body {
         display: flex;
-        background-color: #fcfdfd;
+        background-color: #000000;
         padding: 5%;
         margin: 0;
         width: 100vw;
-        height: 100vh;
+        height: 900px;
     }
 
 
@@ -487,6 +536,7 @@ h6 {
 
     h3 {
         top: 1%;
+        margin-left: 27%;
     }
 
     .color-boxs {
@@ -501,7 +551,7 @@ h6 {
 @media (max-width: 320px) {
     body {
         display: flex;
-        background-color: #b5f1b9;
+        background-color: #000000;
         padding: 5%;
         margin: 0;
         width: 100vw;
@@ -524,8 +574,7 @@ h6 {
     }
 
     h3 {
-        margin-left: 34%;
-        border: solid 1px rgb(255, 255, 255, 0.5);
+        margin-left: 27%;
     }
 
     .color-boxs {
@@ -537,7 +586,7 @@ h6 {
 @media (max-width: 290px) {
     body {
         display: flex;
-        background-color: #64df8d;
+        background-color: #000000;
         /* padding: 2%; */
         margin: 0;
         width: 100vw;
@@ -569,7 +618,7 @@ h6 {
 
     h3 {
         position: relative;
-        /* left: -45%; */
+        margin-left: 27%;
         top: 0%;
         font-size: 12px;
         border: none;
@@ -602,13 +651,11 @@ h6 {
     }
 }
 
-
-
 /* Media query for screens smaller than 240px */
 @media (max-width: 240px) {
     body {
         display: flex;
-        background-color: #cc0f0f;
+        background-color: rgb(25, 25, 25);
         padding: 5%;
         margin: 0;
         width: 100vw;
@@ -640,7 +687,7 @@ h6 {
 
     h3 {
         position: relative;
-        left: -45%;
+        margin-left: 27%;
         top: 0%;
         font-size: 12px;
         border: none;
@@ -669,82 +716,6 @@ h6 {
         justify-content: center;
         margin: 0px 5px 0px 5px;
         width: 100%;
-        border: solid 1px rgb(255, 255, 255, 0.5);
+        border: none;
     }
 }
-
-
-/* Media query for screens smaller than 230px */
-/* @media (max-width: 230px) {
-    body {
-        display: flex;
-        background-color: #0fa32a;
-        padding: 5%;
-        margin: 0;
-        padding: 16px;
-        width: 100%;
-        height: 591px;
-    }
-
-
-    .app-container {
-        margin: 0px;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
-    }
-
-    h3 {
-        margin-left: 8%;
-    }
-
-    .color-boxs {
-        background-color: #000;
-
-        .color-boxs {
-            margin: 0px 5px 0px 5px;
-        }
-    }
-} */
-
-/* Media query for screens smaller than 220px */
-/* @media (max-width: 220px) {
-    body {
-        display: flex;
-        background-color: #000284;
-        padding: 8%;
-        margin: 0;
-        width: 100%;
-        height: 591px;
-    }
-
-
-    .app-container {
-        margin: 0px;
-        display: flexbox;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
-    }
-
-    h3 {
-        margin-left: 12%;
-    }
-
-    .color-boxs {
-        display: flex;
-        position: relative;
-        margin: 0px 5px 0px 5px;
-        width: 100px;
-    }
-} */
