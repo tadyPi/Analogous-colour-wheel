@@ -369,7 +369,6 @@ h6 {
     .app-container {
         margin: 0px;
         width: 370px;
-        height: 42em;
         top: 0%;
     }
 
@@ -416,7 +415,6 @@ h6 {
     .app-container {
         margin: 0px;
         width: 370px;
-        height: 42em;
         top: 0%;
     }
 
@@ -453,50 +451,48 @@ h6 {
 /* Media query for screens smaller than 375px */
 @media (max-width: 375px) {
     body {
-        body {
-            display: flex;
-            background-color: #000000;
-            padding: 5%;
-            margin: 0;
-            width: 100vw;
-            height: 900px;
-        }
+        display: flex;
+        background-color: #000000;
+        padding: 5%;
+        margin: 0;
+        width: 100vw;
+        height: 900px;
+    }
 
 
-        .app-container {
-            margin: 0px;
-            width: 370px;
-            height: 42em;
-            top: 0%;
-        }
+    .app-container {
+        margin: 0px;
+        width: 370px;
+        top: 0%;
+    }
 
-        h1 {
-            position: relative;
-            top: -1%;
-            border: none;
-            max-width: 200px;
-            background-color: transparent;
-        }
+    h1 {
+        position: relative;
+        top: -1%;
+        border: none;
+        max-width: 200px;
+        background-color: transparent;
+    }
 
-        h2 {
-            display: none;
-        }
+    h2 {
+        display: none;
+    }
 
-        P {
-            display: none;
-        }
+    P {
+        display: none;
+    }
 
-        h3 {
-            top: 1%;
-        }
+    h3 {
+        top: 1%;
+    }
 
-        .color-boxs {
-            position: relative;
-            margin: 0px 5px 0px 5px;
-            background-color: #1e1e1e;
-        }
+    .color-boxs {
+        position: relative;
+        margin: 0px 5px 0px 5px;
+        background-color: #1e1e1e;
     }
 }
+
 
 
 /* Media query for screens smaller than 350px */
@@ -514,7 +510,6 @@ h6 {
     .app-container {
         margin: 0px;
         width: 100vw;
-        height: 881px;
         top: 0%;
     }
 
@@ -562,7 +557,6 @@ h6 {
     .app-container {
         margin: 0px;
         width: 100vw;
-        height: 42em;
     }
 
     h2 {
