@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(190, 46%, 12%), hsl(190, 7%, 16%));
+    background: linear-gradient(hsl(0, 0%, 4%), hsl(180, 2%, 13%));
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -549,7 +549,7 @@ h6 {
 @media (min-width: 240px) {
     body {
         display: flex;
-        background: linear-gradient(hsl(190, 46%, 12%), hsl(190, 7%, 16%));
+        background: linear-gradient(hsl(0, 0%, 5%), hsl(251, 24%, 13%));
 
         padding: 5%;
         margin: 0;
@@ -593,7 +593,9 @@ h6 {
         width: 180px;
         height: 180px;
         border-radius: 50%;
+        margin-top: -1em;
     }
+
 
     .color-boxs {
         display: flex;
