@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsl(190, 45%, 26%), hsl(190, 7%, 16%));
+    background: linear-gradient(hsl(190, 46%, 12%), hsl(190, 7%, 16%));
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -16,42 +16,31 @@ body {
     height: 42em;
     width: 20vw;
     background-color: rgb(25, 25, 25);
-    border: 1px solid rgb(252, 253, 253, 0.5);
+    border: 1px solid rgb(238, 235, 235, 0.5);
     position: relative;
+    border-radius: 3px;
     left: 50%;
     top: 22%;
     transform: translate(-50%, -0%);
 }
 
-h2 {
-    color: #fcfdfd;
-    font-family: Poppins, sans-serif;
+.app-container::before {
+    content: "";
     position: absolute;
-    top: 0.5em;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 16px;
-    font-size: 40px;
-    border-radius: 5px;
-}
-
-.design-dev {
-    color: rgb(99, 127, 127);
-    font-family: sans-serif;
-    font-size: 14px;
-    position: absolute;
-    top: 5rem;
-    left: 52.8%;
-    transform: translateX(-50%);
-    padding: 8px;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    box-shadow: 0 0 20px rgba(37, 84, 84, 0.5);
+    z-index: -1;
 }
 
 h1 {
     color: #1a1a1a;
     text-align: center;
     -webkit-text-stroke: .5px rgb(36, 37, 36);
-    text-stroke: 0.5px black;
     padding: 8px;
+    margin-top: 8px;
     font-size: 16px;
     font-weight: bolder;
     background-color: #fcfdfd;
@@ -79,22 +68,6 @@ h3 {
     position: relative;
 }
 
-.line-top {
-    display: none;
-    width: 100%;
-    position: relative;
-    top: -300px;
-    border: 0.5px solid rgb(252, 253, 253, 0.5);
-
-}
-
-.line {
-    width: 100%;
-    position: relative;
-    top: -10px;
-    border: 1 dotted rgba(255, 255, 255);
-}
-
 
 
 #color-boxes {
@@ -104,21 +77,23 @@ h3 {
     align-items: center;
     padding: 20px;
     margin-bottom: 70px;
-    border: solid 1px rgb(255, 255, 255, 0.5);
+    border: 1px solid rgb(238, 235, 235, 0.5);
+
     position: relative;
     width: 200px;
 }
 
 h5 {
-    color: rgb(220, 199, 243);
-    font-size: 14px;
-    -webkit-text-stroke: .2px rgb(48, 48, 48);
+    color: #fcfdfd;
+    font-size: 16px;
+    -webkit-text-stroke: .2px rgb(0, 0, 0);
     text-stroke: 0.5px black;
     position: relative;
 }
 
 .color-boxs {
     border-radius: 3px;
+    top: 1em;
 }
 
 .color-box {
@@ -128,86 +103,67 @@ h5 {
     margin: 10px;
     background-color: #393a3a;
     text-align: center;
+    border-radius: 3px;
+
 }
 
 
 h6 {
     position: absolute;
     bottom: -28px;
-    left: 10px;
-    color: rgba(255, 255, 255, 0.84);
+    left: 16px;
+    color: #fcfdfd;
     width: 100px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
 }
 
 /* Media query for screens larger than 1200px */
 @media (min-width: 1200px) {
     body {
-        background: hwb(180 15% 83%);
-        padding: 0;
-        margin: 0;
-        width: 100%;
+        body {
+
+            display: flex;
+            background: #000000;
+            padding: 5%;
+            margin: 0;
+            width: 100vw;
+            height: 900px;
+
+        }
+
+        .app-container {
+            margin: 0px;
+            width: 370px;
+            height: 42em;
+            top: 0%;
+        }
+
+
+        h1 {
+            color: rgb(255, 255, 255);
+            padding: 4px 8px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            position: relative;
+            top: -1%;
+            /* border: none; */
+            max-width: 200px;
+            background-color: transparent;
+
+        }
+
+        .color-box {
+            background-color: rgb(44, 38, 42);
+        }
+
+        h3 {
+            margin-left: 23%;
+            top: 1%;
+        }
+
     }
 
-    .app-container {
-        width: 370px;
-        top: 14%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
-    }
-
-    .design-dev {
-        font-size: 16px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(220, 199, 243);
-    }
-
-    h1 {
-        background-color: rgb(39, 44, 44);
-        color: rgb(255, 255, 255);
-        padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .color-box {
-        background-color: rgb(38, 44, 44);
-    }
-
-    p {
-        color: rgb(255, 255, 255);
-        position: relative;
-        top: -53%;
-        left: 4%;
-        width: 400px;
-        font-size: 1.29em;
-    }
-
-    .Figma {
-        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
-    }
-
-    .vsCode {
-        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
-    }
 }
 
 
@@ -215,141 +171,83 @@ h6 {
 /* Media query for screens smaller than 1200px */
 @media (max-width: 1200px) {
     body {
-        background: hwb(180 15% 83%);
-        padding: 0;
+        display: flex;
+        background: #000000;
+        padding: 5%;
         margin: 0;
         width: 100vw;
         height: 900px;
+
     }
 
     .app-container {
+        margin: 0px;
         width: 370px;
-        top: 14%;
-        left: 50%;
-        transform: translateX(-50%);
+        height: 42em;
+        top: 0%;
     }
 
-    h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
-    }
-
-    .design-dev {
-        font-size: 16px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(220, 199, 243);
-    }
 
     h1 {
-        background-color: rgb(39, 44, 44);
         color: rgb(255, 255, 255);
         padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
         font-family: Georgia, 'Times New Roman', Times, serif;
+
+        position: relative;
+        top: -1%;
+        /* border: none; */
+        max-width: 200px;
+        background-color: transparent;
+
     }
 
     .color-box {
-        background-color: rgb(38, 44, 44);
+        background-color: rgb(44, 38, 42);
     }
 
-    p {
-        color: rgb(255, 255, 255);
-        position: relative;
-        top: -53%;
-        left: 4%;
-        width: 300px;
-        font-size: 1.1em;
+    h3 {
+        margin-left: 23%;
+        top: 1%;
     }
 
-    .Figma {
-        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
-    }
-
-    .vsCode {
-        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
-    }
 }
 
 /* Media query for screens smaller than 992px */
 @media (max-width: 992px) {
     body {
-        background: hwb(180 15% 83%);
-        padding: 0;
+        display: flex;
+        background-color: #000000;
+        padding: 5%;
         margin: 0;
         width: 100vw;
         height: 900px;
     }
 
+
     .app-container {
+        margin: 0px;
         width: 370px;
-        top: 14%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    h2 {
-        font-size: 32px;
-        white-space: nowrap;
-        top: 0.1em;
-        left: 50%;
-        translate: translateX(-50%);
-    }
-
-    .design-dev {
-        font-size: 16px;
-        top: 3.5rem;
-        left: 50%;
-        color: rgb(220, 199, 243);
+        height: 42em;
+        top: 0%;
     }
 
     h1 {
-        background-color: rgb(39, 44, 44);
-        color: rgb(255, 255, 255);
-        padding: 4px 8px;
-        border: solid 1px rgb(255, 255, 255, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .color-box {
-        background-color: rgb(38, 44, 44);
-    }
-
-    p {
-        color: rgb(255, 255, 255);
         position: relative;
-        top: -53%;
-        left: 14px;
-        width: 210px;
-        font-size: 1em;
+        top: -1%;
+        border: none;
+        max-width: 200px;
+        background-color: transparent;
     }
 
-
-    .Figma {
-        background: linear-gradient(to right, rgb(199, 117, 54), rgb(211, 130, 68), rgb(171, 82, 188), rgb(212, 130, 228), rgb(99, 196, 146), rgb(123, 222, 171));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
+    h3 {
+        margin-left: 23%;
+        top: 1%;
     }
 
-    .vsCode {
-        background: linear-gradient(to right, rgb(34, 37, 225), rgb(41, 44, 234), rgb(127, 121, 235), rgb(114, 113, 216));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.4em;
-        font-weight: bold;
+    .color-boxs {
+        position: relative;
+        margin: 0px 5px 0px 5px;
+        background-color: #1e1e1e;
     }
 }
 
@@ -390,7 +288,7 @@ h6 {
     }
 
     h3 {
-        /* margin-left: 2%; */
+        margin-left: 23%;
         top: 1%;
     }
 
@@ -437,7 +335,7 @@ h6 {
     }
 
     h3 {
-        /* margin-left: 2%; */
+        margin-left: 23%;
         top: 1%;
     }
 
@@ -449,12 +347,11 @@ h6 {
 }
 
 
-
-/* Media query for screens smaller than 375px */
-@media (max-width: 375px) {
+/* Media query for screens smaller than 475px */
+@media (max-width: 475px) {
     body {
         display: flex;
-        background-color: #fcfdfd;
+        background-color: #000000;
         padding: 5%;
         margin: 0;
         width: 100vw;
@@ -464,7 +361,7 @@ h6 {
 
     .app-container {
         margin: 0px;
-        width: 100vw;
+        width: 370px;
         height: 881px;
         top: 0%;
     }
@@ -487,6 +384,57 @@ h6 {
 
     h3 {
         top: 1%;
+        margin-left: 23%;
+    }
+
+    .color-boxs {
+        position: relative;
+        margin: 0px 5px 0px 5px;
+        background-color: #1e1e1e;
+    }
+}
+
+
+
+
+/* Media query for screens smaller than 375px */
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        background-color: #000000;
+        padding: 5%;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .app-container {
+        margin: 0px;
+        width: 370vw;
+        height: 881px;
+        top: 0%;
+    }
+
+    h1 {
+        position: relative;
+        top: -1%;
+        border: none;
+        max-width: 200px;
+        background-color: transparent;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    P {
+        display: none;
+    }
+
+    h3 {
+        top: 1%;
+        margin-left: 23%;
     }
 
     .color-boxs {
@@ -524,7 +472,7 @@ h6 {
     }
 
     h3 {
-        margin-left: 34%;
+        margin-left: 23%;
         border: solid 1px rgb(255, 255, 255, 0.5);
     }
 
@@ -537,7 +485,8 @@ h6 {
 @media (max-width: 290px) {
     body {
         display: flex;
-        background-color: #64df8d;
+        /* background: linear-gradient(hsl(190, 45%, 26%), hsl(190, 7%, 16%)); */
+
         /* padding: 2%; */
         margin: 0;
         width: 100vw;
@@ -557,14 +506,6 @@ h6 {
         border: none;
         max-width: 200px;
         background-color: transparent;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
     }
 
     h3 {
@@ -604,11 +545,12 @@ h6 {
 
 
 
-/* Media query for screens smaller than 240px */
-@media (max-width: 240px) {
+/* Media query for screens bigger than 240px */
+@media (min-width: 240px) {
     body {
         display: flex;
-        background-color: #cc0f0f;
+        background: linear-gradient(hsl(190, 46%, 12%), hsl(190, 7%, 16%));
+
         padding: 5%;
         margin: 0;
         width: 100vw;
@@ -619,7 +561,8 @@ h6 {
     .app-container {
         position: relative;
         margin: 0px;
-        min-width: 240;
+        width: 200;
+        height: 850px;
     }
 
     h1 {
@@ -658,93 +601,17 @@ h6 {
         margin: 0px 5px 0px 5px;
         width: 92%;
         background-color: rgb(25, 25, 25);
-        border-radius: 0px;
-        /* background-color: #080808; */
+        border-radius: 1px;
     }
 
     .grouping {
         display: flex;
+        position: relative;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0px 5px 0px 5px;
         width: 100%;
-        border: solid 1px rgb(255, 255, 255, 0.5);
+        border: none;
     }
 }
-
-
-/* Media query for screens smaller than 230px */
-/* @media (max-width: 230px) {
-    body {
-        display: flex;
-        background-color: #0fa32a;
-        padding: 5%;
-        margin: 0;
-        padding: 16px;
-        width: 100%;
-        height: 591px;
-    }
-
-
-    .app-container {
-        margin: 0px;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
-    }
-
-    h3 {
-        margin-left: 8%;
-    }
-
-    .color-boxs {
-        background-color: #000;
-
-        .color-boxs {
-            margin: 0px 5px 0px 5px;
-        }
-    }
-} */
-
-/* Media query for screens smaller than 220px */
-/* @media (max-width: 220px) {
-    body {
-        display: flex;
-        background-color: #000284;
-        padding: 8%;
-        margin: 0;
-        width: 100%;
-        height: 591px;
-    }
-
-
-    .app-container {
-        margin: 0px;
-        display: flexbox;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
-    }
-
-    h3 {
-        margin-left: 12%;
-    }
-
-    .color-boxs {
-        display: flex;
-        position: relative;
-        margin: 0px 5px 0px 5px;
-        width: 100px;
-    }
-} */
