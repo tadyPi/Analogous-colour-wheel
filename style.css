@@ -1,10 +1,9 @@
 body {
-    background: linear-gradient(hsl(0, 0%, 4%), hsl(80, 2%, 13%));
+    background-color: linear-gradient(hsl(0, 39%, 77%), hsl(185, 53%, 72%), hsl(11, 14%, 52%));
     padding: 0;
     margin: 0;
-    width: 100vw;
-    height: 100vh;
-    min-width: 240px;
+    max-width: 100vw;
+    min-height: 100vh;
 }
 
 /* Default styles */
@@ -544,76 +543,15 @@ h6 {
 }
 
 
-
-/* Media query for screens bigger than 240px */
-@media (min-width: 240px) {
-    body {
-        display: flex;
-        background: linear-gradient(hsl(0, 0%, 5%), hsl(251, 24%, 13%));
-
-        padding: 5%;
-        margin: 0;
-        width: 100vw;
-        height: 880px;
-    }
-
-
-    .app-container {
-        position: relative;
-        margin: 0px;
-        width: 200;
-        height: 850px;
-    }
-
-    h1 {
-        position: relative;
-        top: -1%;
-        border: none;
-        max-width: 200px;
-        background-color: transparent;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    p {
-        display: none;
-    }
+@media (min-width: 241px) and (max-width: 270px) {
+h1 {
+    top: -22.5px;
+}
 
     h3 {
-        position: relative;
-        left: -45%;
-        top: 0%;
-        font-size: 12px;
-        border: none;
-    }
-
-    #color-wheel {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%;
-        margin-top: -1em;
-    }
-
-
-    .color-boxs {
-        display: flex;
-        position: relative;
-        margin: 0px 5px 0px 5px;
-        width: 92%;
-        background-color: rgb(25, 25, 25);
-        border-radius: 1px;
-    }
-
-    .grouping {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px 5px 0px 5px;
-        width: 100%;
-        border: none;
+        position: absolute;
+        left: -43px;
+        top: 2.5rem;
     }
 }
+
