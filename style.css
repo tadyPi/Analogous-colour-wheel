@@ -117,142 +117,8 @@ h6 {
     font-weight: bolder;
 }
 
-/* Media query for screens larger than 1200px */
-@media (min-width: 1200px) {
-    body {
-        body {
-
-            display: flex;
-            background: #000000;
-            padding: 5%;
-            margin: 0;
-            width: 100vw;
-            height: 900px;
-
-        }
-
-        .app-container {
-            margin: 0px;
-            width: 370px;
-            height: 42em;
-            top: 0%;
-        }
-
-
-        h1 {
-            color: rgb(255, 255, 255);
-            padding: 4px 8px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-
-            position: relative;
-            top: -1%;
-            /* border: none; */
-            max-width: 200px;
-            background-color: transparent;
-
-        }
-
-        .color-box {
-            background-color: rgb(44, 38, 42);
-        }
-
-        h3 {
-            margin-left: 23%;
-            top: 1%;
-        }
-
-    }
-
-}
-
-
-
-/* Media query for screens smaller than 1200px */
-@media (max-width: 1200px) {
-    body {
-        display: flex;
-        background: #000000;
-        padding: 5%;
-        margin: 0;
-        width: 100vw;
-        height: 900px;
-
-    }
-
-    .app-container {
-        margin: 0px;
-        width: 370px;
-        height: 42em;
-        top: 0%;
-    }
-
-
-    h1 {
-        color: rgb(255, 255, 255);
-        padding: 4px 8px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-        position: relative;
-        top: -1%;
-        /* border: none; */
-        max-width: 200px;
-        background-color: transparent;
-
-    }
-
-    .color-box {
-        background-color: rgb(44, 38, 42);
-    }
-
-    h3 {
-        margin-left: 23%;
-        top: 1%;
-    }
-
-}
-
-/* Media query for screens smaller than 992px */
-@media (max-width: 992px) {
-    body {
-        display: flex;
-        background-color: #000000;
-        padding: 5%;
-        margin: 0;
-        width: 100vw;
-        height: 900px;
-    }
-
-
-    .app-container {
-        margin: 0px;
-        width: 370px;
-        height: 42em;
-        top: 0%;
-    }
-
-    h1 {
-        position: relative;
-        top: -1%;
-        border: none;
-        max-width: 200px;
-        background-color: transparent;
-    }
-
-    h3 {
-        margin-left: 23%;
-        top: 1%;
-    }
-
-    .color-boxs {
-        position: relative;
-        margin: 0px 5px 0px 5px;
-        background-color: #1e1e1e;
-    }
-}
-
-
 /* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1100px) {
     body {
         display: flex;
         background-color: #000000;
@@ -544,9 +410,9 @@ h6 {
 
 
 @media (min-width: 241px) and (max-width: 270px) {
-h1 {
-    top: -22.5px;
-}
+    h1 {
+        top: -22.5px;
+    }
 
     h3 {
         position: absolute;
@@ -554,4 +420,3 @@ h1 {
         top: 2.5rem;
     }
 }
-
