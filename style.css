@@ -118,7 +118,7 @@ h6 {
 }
 
 /* Media query for screens smaller than 768px */
-@media (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 768px) {
     body {
         display: flex;
         background-color: #000000;
