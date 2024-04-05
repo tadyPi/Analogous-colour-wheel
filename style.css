@@ -34,15 +34,16 @@ body {
     z-index: -1;
 }
 
-h1 {
-    color: #1a1a1a;
+.app-container h1 {
+    color: #ffffff;
+    display: flex;
     text-align: center;
     -webkit-text-stroke: .5px rgb(36, 37, 36);
     padding: 8px;
-    margin-top: 8px;
+    margin-top: 32px;
     font-size: 16px;
     font-weight: bolder;
-    background-color: #fcfdfd;
+    max-width: 350px;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -109,10 +110,10 @@ h5 {
 
 h6 {
     position: absolute;
-    bottom: -28px;
-    left: 16px;
+    bottom: -32px;
+    left: 8px;
     color: #fcfdfd;
-    width: 100px;
+    width: 200px;
     font-size: 16px;
     font-weight: bolder;
 }
