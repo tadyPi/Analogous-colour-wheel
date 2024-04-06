@@ -38,15 +38,14 @@ body {
     color: #ffffff;
     display: flex;
     text-align: center;
-    -webkit-text-stroke: .5px rgb(36, 37, 36);
     padding: 8px;
     margin-top: 32px;
     font-size: 16px;
     font-weight: bolder;
-    max-width: 210px;
-    border-radius: 2px;
-    border: solid 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: Inter;
 }
 
 h3 {
@@ -56,6 +55,7 @@ h3 {
     position: relative;
     left: -6rem;
     top: 1em;
+    font-weight: bold;
 }
 
 
@@ -119,8 +119,8 @@ h6 {
     font-weight: bolder;
 }
 
-/* Media query for screens smaller than 768px */
-@media (min-width: 768px) {
+/* Media query for screens bigger than 768px */
+@media (min-width: 577px) {
     body {
         display: flex;
         background-color: #000000;
@@ -356,7 +356,7 @@ h6 {
 
         /* padding: 2%; */
         margin: 0;
-        width: 100vw;
+        min-width: 100vw;
         height: 100vh;
     }
 
@@ -365,6 +365,7 @@ h6 {
     .app-container {
         position: relative;
         margin: 0px;
+        max-width: 290px;
     }
 
     h1 {
