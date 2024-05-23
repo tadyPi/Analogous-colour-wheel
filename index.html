@@ -7,20 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/Colour wheel favicon.png" type="image/x-icon">
+
+    <!--Box-icons link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix-icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css">
+
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <h2>load of pixels
-        <h2 class="design-dev">design and development</h2>
-    </h2>
+    <!--header section-->
+    <header>
+        <a href="/" class="logo">
+            <div class="Frame103"></div>
+            <div class="Group147">
+                <div class="LoadOfPixel">
+                    load of pixel</div>
+                <div class="Group133">
+                </div>
+                <div class="CloudAndWebDevelopment">
+                    cloud and web development</div>
+            </div>
+        </a>
 
+        <!--nav bar-->
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/Web-development.html">Web development</a></li>
+            <li><a href="/UX-design.html">UX/UI design</a></li>
+            <li><a href="/Web-design.html">Web design</a></li>
+            <li><a href="/Contact-us.html">About us</a></li>
+        </ul>
 
-    <div class="app-container">
-        <h1>Analogous Colour Picker</h1>
+        <div class="h-right">
+            <a href="#" class="follow-us">Follow us</a>
+            <a href="https://www.linkedin.com"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.twitter.com"><i class="ri-twitter-fill"></i></a>
+            <a href="https://www.github.com"><i class="ri-github-fill"></i></a>
+            <div class="bx-x" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <div>
+        <h1 class="mainH1">Analogous colour picker</h1>
+        <p class="mainPara">The term analogous refers to having analogy, or corresponding to something in
+            particular.<br>
+            <br>These color schemes are most often seen in nature.<br>
+            <br>
+            For example, during the fall, one might often see the changing leaves form an analogous sort of color
+            scheme, progressively moving through the color wheel to create a gradient in its natural pattern.
+        </p>
+    </div>
+
+    <div class="app-container" id="appContainer">
+        <h1>Analogous colour picker</h1>
+        <div class="line-div"></div>
         <h3>Pick a colour</h3>
-        <canvas id="color-wheel" class="canvas1" width="200" height="200"></canvas>
         <div class="line-top"></div>
         <div class="line"></div>
+
+        <canvas id="color-wheel" class="canvas1" width="200" height="200"></canvas>
 
         <div id="color-boxes" class="color-boxs">
             <div class="grouping">
@@ -37,20 +93,6 @@
         </div>
         <h6>tadyPi @load of pixels</h6>
     </div>
-
-    <!-- <p>This custom web app was designed using <a class="Figma" href="https://www.figma.com/">Figma,</a>
-        the web app was developed in <a class="vsCode" href="https://code.visualstudio.com/">Visual studio code</a>
-        using
-        HTML,
-        CSS and JavaScript.
-        <br>
-        <br>The term analogous refers to having analogy, or corresponding to something in particular.
-
-        <br>
-        <br>These color schemes are most often seen in nature.
-        <br>
-        <br>They are harmonious and pleasing to the eye.
-    </p> -->
     <script src="script.js"></script>
 
 </body>

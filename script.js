@@ -42,6 +42,12 @@ canvas.addEventListener("click", function (event) {
     complementaryColorBox1.style.backgroundColor = complementaryColor1;
     complementaryColorBox2.style.backgroundColor = complementaryColor2;
   }
+
+  // update h1 gradient with selected and complementary colors
+  const h1Element = document.querySelector(".LoadOfPixel");
+  h1Element.style.background = `linear-gradient(to right, ${selectedColor}, ${complementaryColor1}, ${complementaryColor2})`;
+  h1Element.style.webkitBackgroundClip = "text";
+  h1Element.style.webkitTextFillColor = "transparent";
 });
 
 for (let angle = 0; angle < 360; angle += 1) {
@@ -54,3 +60,34 @@ for (let angle = 0; angle < 360; angle += 1) {
   context.fillStyle = `hsl(${angle}, 100%, 50%)`;
   context.fill();
 }
+
+// New code for draggable functionality...
+
+// Get the app container
+// New code for draggable functionality...
+
+const appContainer = document.querySelector(".app-container");
+
+let mouseDown = false;
+let startX, startY, initialLeft, initialTop;
+
+appContainer.addEventListener("mousedown", (e) => {
+  mouseDown = true;
+  startX = e.clientX;
+  startY = e.clientY;
+  const rect = appContainer.getBoundingClientRect();
+  initialLeft = rect.left;
+  initialTop = rect.top;
+});
+
+document.addEventListener("mousemove", (e) => {
+  if (!mouseDown) return;
+  const dx = e.clientX - startX;
+  const dy = e.clientY - startY;
+  appContainer.style.left = initialLeft + dx + "px";
+  appContainer.style.top = initialTop + dy + "px";
+});
+
+document.addEventListener("mouseup", () => {
+  mouseDown = false;
+});
