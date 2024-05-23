@@ -114,7 +114,12 @@ header {
     top: 18.06px;
     position: absolute;
     background-size: cover;
+<<<<<<< HEAD
     background-image: url(orange-brackets.svg);
+=======
+    /* background-image: url(/orange-brackets.svg); */
+    background-image: url(/Frame\ 126.png);
+>>>>>>> bf2a759 (refactor: Update background image in style.css)
 }
 
 .CloudAndWebDevelopment {
