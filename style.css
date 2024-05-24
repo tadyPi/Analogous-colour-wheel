@@ -257,12 +257,13 @@ header {
     border-radius: 3px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     /* margin-top: 5rem; */
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, 25%);
     position: absolute;
     transition: left 0.2s ease-out, top 0.2s ease-out;
     user-select: none;
+    cursor: move;
 }
 
 .app-container::before {
