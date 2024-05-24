@@ -114,12 +114,9 @@ header {
     top: 18.06px;
     position: absolute;
     background-size: cover;
-<<<<<<< HEAD
     background-image: url(orange-brackets.svg);
-=======
     /* background-image: url(/orange-brackets.svg); */
     background-image: url(/Frame\ 126.png);
->>>>>>> bf2a759 (refactor: Update background image in style.css)
 }
 
 .CloudAndWebDevelopment {
@@ -259,11 +256,14 @@ header {
     background-color: rgb(25, 25, 25);
     border: 1px solid rgba(103, 101, 101, 0.5);
     border-radius: 3px;
-    left: 15%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     /* margin-top: 5rem; */
     transform: translate(-50%, -0%);
-    position: relative;
+    position: absolute;
     transition: left 0.2s ease-out, top 0.2s ease-out;
+    user-select: none;
 }
 
 .app-container::before {
@@ -374,6 +374,12 @@ h6 {
     width: 200px;
     font-size: 16px;
     font-weight: bolder;
+}
+
+@media (max-width: 1310px) {
+    .app-container {
+        width: 25vw;
+    }
 }
 
 /* Media query for screens bigger than 768px */

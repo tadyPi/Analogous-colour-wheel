@@ -68,6 +68,9 @@ for (let angle = 0; angle < 360; angle += 1) {
 
 const appContainer = document.querySelector(".app-container");
 
+// Ensure the appContainer has a position of absolute or fixed
+appContainer.style.position = "absolute";
+
 let mouseDown = false;
 let startX, startY, initialLeft, initialTop;
 
@@ -75,9 +78,8 @@ appContainer.addEventListener("mousedown", (e) => {
   mouseDown = true;
   startX = e.clientX;
   startY = e.clientY;
-  const rect = appContainer.getBoundingClientRect();
-  initialLeft = rect.left;
-  initialTop = rect.top;
+  initialLeft = appContainer.offsetLeft;
+  initialTop = appContainer.offsetTop;
 });
 
 document.addEventListener("mousemove", (e) => {
