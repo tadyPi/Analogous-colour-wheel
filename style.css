@@ -475,7 +475,21 @@ h6 {
         margin: 0px;
         min-width: 300px;
         /* height: 42em; */
-        top: 0%;
+        top: 20%;
+    }
+
+
+
+    .mainPara {
+        display: none;
+    }
+
+    .h-right {
+        left: 72%;
+    }
+
+    .navbar {
+        display: none;
     }
 
 
@@ -511,11 +525,24 @@ h6 {
         padding: 5%;
         margin: 0;
         width: 100vw;
-        height: 900px;
     }
 
-    header {
+    .navbar {
         display: none;
+    }
+
+    .LoadOfPixel {
+        left: 1px;
+        top: 7.5px;
+    }
+
+    .h-right {
+        left: 70%;
+    }
+
+    .mainH1 {
+        left: 3.5rem;
+        top: 5rem;
     }
 
 
@@ -523,7 +550,7 @@ h6 {
         margin: 0px;
         width: 370px;
         height: 42em;
-        top: 0%;
+        top: 13%;
     }
 
     h1 {
@@ -625,6 +652,11 @@ h6 {
         display: none;
     }
 
+    .mainH1,
+    .mainPara {
+        display: none;
+    }
+
 
     .app-container {
         margin: 0px;
@@ -666,13 +698,11 @@ h6 {
 @media (max-width: 320px) {
     body {
         display: flex;
-        /* background: #787a78; */
+        background: #2f302f;
         padding: 5%;
         margin: 0;
         width: 100vw;
-        left: 50%;
-        /* width: 100vw; */
-        /* height: 100vh; */
+        position: relative;
     }
 
     header {
@@ -687,11 +717,12 @@ h6 {
 
     .app-container {
         position: absolute;
-        left: 0;
+        left: 50%;
+        width: 320px;
     }
 
     .app-container h1 {
-        top: -1rem;
+        top: -9rem;
     }
 
     h3 {
