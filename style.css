@@ -44,7 +44,8 @@ body {
     box-sizing: border-box;
     outline: none;
     overflow-x: hidden;
-    background: linear-gradient(to bottom, var(--bg-color-outer-top), var(--bg-color-start), var(--bg-color-end), var(--bg-color-outer-bottom));
+    background: #ffffff;
+    z-index: 101;
 }
 
 header {
@@ -379,6 +380,71 @@ h6 {
 @media (max-width: 1310px) {
     .app-container {
         width: 25vw;
+    }
+
+    .Group147 {
+        position: absolute;
+        left: -15%;
+    }
+
+    .navbar {
+        left: 13%;
+    }
+
+    .navbar a {
+        color: #dfdfdf;
+        font-size: var(--p-font);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        margin: 5px 10px;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (max-width: 1220px) {
+    .app-container {
+        width: 30vw;
+    }
+
+    .Group147 {
+        position: absolute;
+        left: -15%;
+        width: 236px;
+    }
+
+    .LoadOfPixel {
+        left: 17px;
+        top: 5.5px;
+        position: absolute;
+        text-align: right;
+        color: #e8bbef;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+
+    .CloudAndWebDevelopment {
+        left: 125px;
+        top: 32.98px;
+        font-size: 5px;
+    }
+
+    .h-right {
+        left: 17%;
+    }
+
+    .navbar {
+        left: 13%;
+    }
+
+    .navbar a {
+        color: #dfdfdf;
+        font-size: 19px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        margin: 5px 10px;
+        transition: all 0.5s ease;
     }
 }
 
