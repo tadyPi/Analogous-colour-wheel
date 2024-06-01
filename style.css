@@ -625,7 +625,7 @@ h6 {
     body {
         display: flex;
         flex-direction: column;
-        background: #afdfeb;
+        background: #2a2b2b;
         padding: 0;
         margin: 0;
         position: relative;
@@ -655,10 +655,18 @@ h6 {
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: #1e201e;
+        min-width: 200px;
+        /* Replace with your desired minimum width */
+        max-width: 320px;
+        /* Replace with your desired maximum width */
+        min-height: 300px;
+        /* Replace with your desired minimum height */
+        max-height: 660px;
+        /* Replace with your desired maximum height */
+        background-color: #2f302f;
         margin: 0;
         padding: 0;
-        top: 2%;
+        top: 0;
     }
 
     .app-container h1 {
@@ -669,7 +677,7 @@ h6 {
     h3 {
         margin-left: 3%;
         color: #fcfdfd;
-        top: 1rem;
+        top: 0.5rem;
         /* border: solid 1px rgb(255, 255, 255, 0.5); */
     }
 
@@ -679,7 +687,7 @@ h6 {
     }
 
     #color-boxes {
-        top: 1rem;
+        top: 0;
     }
 
     .color-boxs {
