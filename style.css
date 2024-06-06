@@ -49,7 +49,7 @@ body {
     padding: 0;
     height: 100vh;
     background-size: 200% 200%;
-    background-image: linear-gradient(15deg, #2a2a2a, #212222, #020017, #2b2929);
+    background-image: linear-gradient(15deg, #636060, #5e6d6d, #39383f, #464444);
 }
 
 header {
@@ -120,12 +120,11 @@ header {
     position: absolute;
     background-size: cover;
     /* background-image: url(/orange-brackets.svg); */
-    background-image: url(Frame-126.png);
 }
 
 .CloudAndWebDevelopment {
-    left: 149px;
-    top: 38.98px;
+    left: 155px;
+    top: 44.98px;
     position: absolute;
     color: #E6E6E6;
     font-size: 6.2px;
@@ -242,7 +241,7 @@ header {
     color: #c6c3f0;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     position: absolute;
     top: 12rem;
     left: 2.2rem;
@@ -441,7 +440,7 @@ h6 {
     .Group147 {
         width: 305.16px;
         height: 51px;
-        left: -2px;
+        left: -58px;
         top: 0px;
         position: absolute;
     }
@@ -470,8 +469,8 @@ h6 {
     }
 
     .CloudAndWebDevelopment {
-        left: 149px;
-        top: 38.98px;
+        left: 156px;
+        top: 45.98px;
         position: absolute;
         color: #E6E6E6;
         font-size: 6.2px;
@@ -484,16 +483,17 @@ h6 {
     .navbar {
         display: flex;
         position: relative;
-        left: 19%;
+        left: 17%;
     }
 
     .navbar a {
         color: #dfdfdf;
         font-size: var(--p-font);
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        margin: 5px 16px;
+        font-weight: 300;
+        margin: 5px 10px;
         transition: all 0.5s ease;
+        font-size: 13px;
     }
 
     .navbar a:hover {
@@ -603,13 +603,13 @@ h6 {
         align-items: center;
         justify-content: center;
         height: 35em;
-        width: 20vw;
+        width: 30vw;
         background-color: transparent;
         backdrop-filter: blur(35px);
         border: 1px solid rgba(103, 101, 101, 0.5);
         border-radius: 3px;
-        left: 50%;
-        top: 20%;
+        left: 60%;
+        top: 40%;
         /* transform: translate(-50%, -50%); */
         /* margin-top: 5rem; */
         transform: translate(-50%, 0%);
