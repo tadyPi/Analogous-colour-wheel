@@ -388,7 +388,8 @@ h6 {
     font-weight: bolder;
 }
 
-@media (min-width: 769px) {
+/* Media query for screens smaller than 1024px */
+@media (max-width: 1024px) {
     body {
         margin: 0;
         padding: 0;
@@ -734,8 +735,8 @@ h6 {
     }
 }
 
-/* Media query for screens bigger than 768px */
-@media (min-width: 576px) and (max-width: 577px) {
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
     body {
         display: flex;
         padding: 5%;
@@ -797,7 +798,7 @@ h6 {
 
 
 /* Media query for screens smaller than 475px */
-@media (min-width: 376px) and (max-width: 475px) {
+@media (max-width: 475px) {
     body {
         display: flex;
         background-color: #000000;
@@ -856,7 +857,8 @@ h6 {
     }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
+/* Media query for screens smaller than 375px */
+@media (max-width: 375px) {
     body {
         display: flex;
         flex-direction: column;
@@ -891,88 +893,6 @@ h6 {
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: #2f302f;
-        margin: 0;
-        padding: 0;
-        top: 0;
-    }
-
-    .app-container h1 {
-        top: 1rem;
-        height: fit-content;
-    }
-
-    h3 {
-        margin-left: 3%;
-        color: #fcfdfd;
-        top: 0.5rem;
-        /* border: solid 1px rgb(255, 255, 255, 0.5); */
-    }
-
-    #color-wheel {
-        position: relative;
-        top: 1rem;
-    }
-
-    #color-boxes {
-        top: 0;
-    }
-
-    .color-boxs {
-        margin: 5px 5px 0px 5px;
-        top: -1rem;
-    }
-
-    h6 {
-        bottom: 0;
-    }
-
-}
-
-
-/* Media query for screens smaller than 320px */
-@media (min-width: 320px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        background: #2a2b2b;
-        padding: 0;
-        margin: 0;
-        position: relative;
-    }
-
-    header {
-        display: none;
-    }
-
-    .mainH1,
-    .mainPara {
-        display: none;
-    }
-
-    .desktop-text {
-        display: none;
-    }
-
-    .line-div {
-        top: 0;
-        background-color: #1c1c1c;
-    }
-
-    .app-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        min-width: 200px;
-        /* Replace with your desired minimum width */
-        max-width: 320px;
-        /* Replace with your desired maximum width */
-        min-height: 300px;
-        /* Replace with your desired minimum height */
-        max-height: 660px;
-        /* Replace with your desired maximum height */
         background-color: #2f302f;
         margin: 0;
         padding: 0;
