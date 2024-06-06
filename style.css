@@ -931,7 +931,7 @@ h6 {
 
 
 /* Media query for screens smaller than 320px */
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     body {
         display: flex;
         flex-direction: column;
