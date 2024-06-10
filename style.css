@@ -80,7 +80,7 @@ header {
 
 .logo:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.7s ease-in-out;
 }
 
 .Frame103 {
@@ -137,7 +137,7 @@ header {
 .navbar {
     display: flex;
     position: relative;
-    left: 19%;
+    left: 17%;
 }
 
 .navbar a {
@@ -182,7 +182,7 @@ header {
 
 .h-right a:hover {
     color: #fcfdfd;
-    transform: translateX(-3px);
+    transform: translateY(-3px);
 }
 
 #menu-icon {
@@ -195,10 +195,24 @@ header {
 
 
 .mainH1 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    top: 6rem;
+    position: absolute;
+    left: 2.2rem;
+    max-width: 400px;
+    /* New styles for gradient text */
+    background: transparent;
+    line-height: 1.5;
+    text-shadow: 0.1px 0.9 1px rgb(167, 234, 130);
+}
+
+.mainH2 {
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    top: 8rem;
+    top: 9rem;
     position: absolute;
     left: 2.2rem;
     max-width: 400px;
@@ -208,6 +222,33 @@ header {
 }
 
 .mainH1 {
+    background: linear-gradient(to left,
+            rgba(39, 159, 180, 0.5),
+            rgba(208, 135, 195, 0.5),
+            rgba(105, 98, 198, 0.5),
+            rgba(124, 212, 217, 0.5),
+            rgba(144, 86, 111, 0.5),
+            rgba(234, 203, 136, 0.5),
+            rgba(87, 141, 151, 0.5));
+
+
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 200% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.mainH2 {
     background: linear-gradient(to right,
             rgb(5, 119, 139),
             rgb(239, 94, 213),
@@ -392,7 +433,8 @@ h6 {
     body {
         margin: 0;
         padding: 0;
-        height: 100vh;
+        height: 150vh;
+
         background-size: 200% 200%;
         background-image: linear-gradient(15deg, #2a2a2a, #212222, #020017, #2b2929);
     }
@@ -528,7 +570,7 @@ h6 {
     }
 
     .h-right a:hover {
-        color: #fcfdfd;
+        color: #fcfdfc;
         transform: translateX(-3px);
     }
 
@@ -552,6 +594,10 @@ h6 {
         /* New styles for gradient text */
         background: transparent;
         line-height: 1.5;
+    }
+
+    .mainH2 {
+        display: none;
     }
 
     .mainH1 {
@@ -763,6 +809,8 @@ h6 {
         min-width: 300px;
         /* height: 42em; */
         top: 20%;
+        left: 50%;
+        transform: translate(-50%, 0%);
     }
 
 
@@ -785,7 +833,7 @@ h6 {
     }
 
     h3 {
-        margin-left: 23%;
+        margin-left: 1%;
         top: 1%;
     }
 
