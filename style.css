@@ -906,7 +906,7 @@ h6 {
 }
 
 /* Media query for screens smaller than 375px */
-@media (max-width: 375px) {
+@media (max-width: 376px) and (max-height: 475px) {
     body {
         display: flex;
         flex-direction: column;
@@ -955,17 +955,17 @@ h6 {
     h3 {
         margin-left: 3%;
         color: #fcfdfd;
-        top: 0.5rem;
+        top: 1rem;
         /* border: solid 1px rgb(255, 255, 255, 0.5); */
     }
 
     #color-wheel {
         position: relative;
-        top: 1rem;
+        top: -3.5rem;
     }
 
     #color-boxes {
-        top: 0;
+        top: -2rem;
     }
 
     .color-boxs {
@@ -980,7 +980,7 @@ h6 {
 }
 
 /* Media query for screens smaller than 375px */
-@media (max-width: 320px) {
+@media (max-width: 320px) and (max-height: 375px) {
     body {
         display: flex;
         flex-direction: column;
