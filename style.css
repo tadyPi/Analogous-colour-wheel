@@ -846,14 +846,14 @@ h6 {
 
 
 /* Media query for screens smaller than 475px */
-@media (max-width: 475px) {
+@media (max-width: 476px) {
     body {
         display: flex;
         background-color: #000000;
         padding: 0;
         margin: 0;
         width: 100vw;
-        height: 100vh;
+
     }
 
     header {
@@ -906,7 +906,7 @@ h6 {
 }
 
 /* Media query for screens smaller than 375px */
-@media (max-width: 376px) and (max-height: 475px) {
+@media (max-width: 425px) {
     body {
         display: flex;
         flex-direction: column;
@@ -980,7 +980,7 @@ h6 {
 }
 
 /* Media query for screens smaller than 375px */
-@media (max-width: 320px) and (max-height: 375px) {
+@media (max-width: 320px) {
     body {
         display: flex;
         flex-direction: column;
