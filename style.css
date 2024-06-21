@@ -913,7 +913,7 @@ h6 {
         background: #e6efd6;
         padding: 0;
         margin: 0;
-        position: absolute;
+        /* position: absolute; */
     }
 
     .mobile-wrapper {
@@ -949,6 +949,7 @@ h6 {
         align-items: center;
         justify-content: center;
         width: 72%;
+        height: 900px;
         background-color: #191b19;
         margin: 0;
         padding: 0;
@@ -962,19 +963,20 @@ h6 {
     }
 
     h3 {
-        margin-left: 3%;
+        margin-left: 0;
         color: #fcfdfd;
         top: 2.5rem;
+        position: absolute;
         /* border: solid 1px rgb(255, 255, 255, 0.5); */
     }
 
     #color-wheel {
-        position: relative;
-        top: -3.7rem;
+        position: absolute;
+        top: 7.3rem;
     }
 
     #color-boxes {
-        top: -4.5rem;
+        top: 1.5rem;
     }
 
     .color-boxs {
