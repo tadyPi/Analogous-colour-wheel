@@ -910,10 +910,22 @@ h6 {
     body {
         display: flex;
         flex-direction: column;
-        background: #2a2b2b;
+        background: #000000;
         padding: 0;
         margin: 0;
         position: relative;
+    }
+
+    .mobile-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #3f3f3f;
+        margin: 0;
+        padding: 0;
+        top: 0;
     }
 
     header {
@@ -931,8 +943,8 @@ h6 {
     }
 
     .line-div {
-        top: 0;
-        background-color: #1c1c1c;
+        top: 89px;
+        background-color: #40403f;
     }
 
     .app-container {
@@ -940,11 +952,11 @@ h6 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        background-color: #2f302f;
+        width: 92%;
+        background-color: #191b19;
         margin: 0;
         padding: 0;
-        top: 0;
+        top: 4%;
     }
 
     .app-container h1 {
