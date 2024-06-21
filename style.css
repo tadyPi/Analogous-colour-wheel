@@ -917,6 +917,7 @@ h6 {
     }
 
     .mobile-wrapper {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -925,7 +926,7 @@ h6 {
         background-color: #313131;
         margin: 0;
         padding: 0;
-        top: 0;
+        top: 5%;
     }
 
     header,
@@ -942,6 +943,7 @@ h6 {
     }
 
     .app-container {
+        position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -950,7 +952,7 @@ h6 {
         background-color: #191b19;
         margin: 0;
         padding: 0;
-        top: 4%;
+        /* top: 4%; */
     }
 
     .app-container h1 {
