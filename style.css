@@ -952,7 +952,7 @@ h6 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 92%;
+        width: 72%;
         background-color: #191b19;
         margin: 0;
         padding: 0;
@@ -967,17 +967,17 @@ h6 {
     h3 {
         margin-left: 3%;
         color: #fcfdfd;
-        top: 1rem;
+        top: 1.9rem;
         /* border: solid 1px rgb(255, 255, 255, 0.5); */
     }
 
     #color-wheel {
         position: relative;
-        top: -3.5rem;
+        top: -3.1rem;
     }
 
     #color-boxes {
-        top: -2rem;
+        top: -3.5rem;
     }
 
     .color-boxs {
@@ -986,7 +986,8 @@ h6 {
     }
 
     h6 {
-        bottom: 0;
+        bottom: 6rem;
+        left: 0.5rem;
     }
 
 }
