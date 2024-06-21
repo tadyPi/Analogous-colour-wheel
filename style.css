@@ -976,14 +976,14 @@ h6 {
     h3 {
         margin-left: 0;
         color: #fcfdfd;
-        top: 2.5rem;
+        top: 3.5rem;
         position: absolute;
         /* border: solid 1px rgb(255, 255, 255, 0.5); */
     }
 
     #color-wheel {
         position: absolute;
-        top: 7.3rem;
+        top: 8.3rem;
     }
 
     #color-boxes {
@@ -1003,8 +1003,12 @@ h6 {
     }
 
     .span-hello {
+        color: #000000;
+        -webkit-text-stroke: 0.5px #d1d0d0ab;
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
