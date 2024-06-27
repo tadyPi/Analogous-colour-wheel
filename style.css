@@ -195,13 +195,14 @@ header {
 
 
 .mainH1 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     top: 6rem;
+    line-height: 3.5;
     position: absolute;
     left: 2.2rem;
-    max-width: 400px;
+    max-width: 600px;
     /* New styles for gradient text */
     background: transparent;
     line-height: 1.5;
@@ -209,10 +210,10 @@ header {
 }
 
 .mainH2 {
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    top: 9rem;
+    top: 39rem;
     position: absolute;
     left: 2.2rem;
     max-width: 400px;
@@ -223,19 +224,21 @@ header {
 
 .mainH1 {
     background: linear-gradient(to left,
-            rgba(39, 159, 180, 0.5),
-            rgba(208, 135, 195, 0.5),
-            rgba(105, 98, 198, 0.5),
-            rgba(124, 212, 217, 0.5),
-            rgba(144, 86, 111, 0.5),
-            rgba(234, 203, 136, 0.5),
-            rgba(87, 141, 151, 0.5));
+            rgba(84, 85, 85, 0.1),
+            rgba(81, 81, 82, 0.1),
+            rgba(124, 212, 217, 0.7),
+            rgba(124, 212, 217, 0.7),
+            rgba(124, 212, 217, 0.7),
+            rgba(81, 81, 82, 0.1),
+            rgba(84, 85, 85, 0.1));
 
 
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
     animation: gradientAnimation 5s linear infinite;
+    -webkit-text-stroke: .2px rgb(180, 175, 175);
+
 }
 
 @keyframes gradientAnimation {
@@ -284,7 +287,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     left: 2.2rem;
     max-width: 400px;
 }
@@ -300,7 +303,7 @@ header {
     width: 20vw;
     background-color: transparent;
     backdrop-filter: blur(35px);
-    border: 1px solid rgba(103, 101, 101, 0.5);
+    border: 1px solid rgba(41, 41, 41, 0.5);
     border-radius: 3px;
     left: 50%;
     top: 20%;
@@ -321,7 +324,7 @@ header {
     left: -1px;
     right: -1px;
     bottom: -1px;
-    box-shadow: 0 0 20px rgba(59, 59, 59, 0.5);
+    box-shadow: 0 0 20px rgba(59, 59, 59);
     z-index: -1;
 }
 
@@ -372,7 +375,7 @@ h3 {
     height: 200px;
     cursor: crosshair;
     position: relative;
-    bottom: 1rem;
+    bottom: -0.4rem;
 }
 
 
@@ -388,7 +391,6 @@ h3 {
     background: transparent;
     backdrop-filter: blur(35px);
     position: relative;
-    bottom: 1.3rem;
     width: 200px;
 }
 
@@ -402,7 +404,7 @@ h5 {
 
 .color-boxs {
     border-radius: 1px;
-    top: -1rem;
+    top: 0.5rem;
 }
 
 .color-box {
