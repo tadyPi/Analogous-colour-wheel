@@ -419,6 +419,7 @@ h5 {
 
 
 h6 {
+    display: none;
     position: absolute;
     bottom: 3px;
     left: 8px;
@@ -426,6 +427,16 @@ h6 {
     width: 200px;
     font-size: 16px;
     font-weight: bolder;
+}
+
+.span-hello {
+    color: #b9b8b8;
+    /* -webkit-text-stroke: 0.1px #e13f3f; */
+    font-size: 1em;
+    left: -45px;
+    top: 5rem;
+    position: relative;
+
 }
 
 /* Media query for screens smaller than 1024px */
