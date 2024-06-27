@@ -303,7 +303,7 @@ header {
     width: 20vw;
     background-color: transparent;
     backdrop-filter: blur(35px);
-    border: 1px solid rgba(41, 41, 41, 0.5);
+    border: 1px solid rgba(41, 41, 41, 0.7);
     border-radius: 3px;
     left: 50%;
     top: 20%;
@@ -324,7 +324,7 @@ header {
     left: -1px;
     right: -1px;
     bottom: -1px;
-    box-shadow: 0 0 20px rgba(59, 59, 59);
+    box-shadow: 0 0 20px rgb(39, 39, 39);
     z-index: -1;
 }
 
@@ -339,7 +339,7 @@ header {
     max-width: 100%;
     /* border-radius: 5px; */
     padding: 10px 20px;
-    border: 1px solid rgba(206, 206, 206, 0.3);
+    border: 1px solid rgba(92, 92, 92, 0.7);
     font-family: 'Poppins', sans-serif;
     top: 9px;
 }
@@ -352,7 +352,7 @@ header {
     top: 3rem;
     width: 100%;
     height: 1px;
-    background-color: rgba(148, 148, 148, 0.3);
+    background-color: rgba(41, 41, 41, 0.3);
 
 }
 
@@ -387,7 +387,7 @@ h3 {
     align-items: center;
     padding: 20px;
     margin-bottom: -3rem;
-    border: 1px solid rgba(136, 136, 136, 0.3);
+    border: 1px solid rgba(41, 41, 41, 0.7);
     background: transparent;
     backdrop-filter: blur(35px);
     position: relative;
@@ -395,10 +395,9 @@ h3 {
 }
 
 h5 {
-    color: #fcfdfd;
+    color: #fcfdfdab;
     font-size: 16px;
-    -webkit-text-stroke: .2px rgb(0, 0, 0);
-    text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
     position: relative;
 }
 
