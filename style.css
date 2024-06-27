@@ -212,7 +212,7 @@ header {
 .mainH2 {
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     top: 39rem;
     position: absolute;
     left: 2.2rem;
@@ -226,7 +226,6 @@ header {
     background: linear-gradient(to left,
             rgba(84, 85, 85, 0.1),
             rgba(81, 81, 82, 0.1),
-            rgba(124, 212, 217, 0.7),
             rgba(124, 212, 217, 0.7),
             rgba(124, 212, 217, 0.7),
             rgba(81, 81, 82, 0.1),
@@ -252,20 +251,22 @@ header {
 }
 
 .mainH2 {
-    background: linear-gradient(to right,
-            rgb(5, 119, 139),
-            rgb(239, 94, 213),
-            rgb(63, 51, 224),
-            rgb(11, 121, 126),
-            rgb(234, 39, 124),
-            rgb(230, 180, 73),
-            rgb(5, 119, 139));
+    background: linear-gradient(to left,
+            rgba(84, 85, 85, 0.1),
+            rgba(81, 81, 82, 0.1),
+            rgba(239, 157, 227, 0.7),
+            rgba(233, 240, 130, 0.7),
+            rgba(130, 174, 240, 0.7),
+            rgba(81, 81, 82, 0.1),
+            rgba(84, 85, 85, 0.1));
 
 
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
     animation: gradientAnimation 5s linear infinite;
+    -webkit-text-stroke: .2px rgb(180, 175, 175);
+
 }
 
 @keyframes gradientAnimation {
@@ -361,9 +362,9 @@ h3 {
     font-size: 16px;
     position: absolute;
     left: 2rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     font-weight: bold;
-    top: 0%;
+    top: 4.5rem;
 }
 
 
@@ -387,7 +388,7 @@ h3 {
     align-items: center;
     padding: 20px;
     margin-bottom: -3rem;
-    border: 1px solid rgba(41, 41, 41, 0.7);
+    border: 1px solid rgba(41, 41, 41, 0.6);
     background: transparent;
     backdrop-filter: blur(35px);
     position: relative;
@@ -395,10 +396,11 @@ h3 {
 }
 
 h5 {
-    color: #fcfdfdab;
+    color: #d1d1d1;
     font-size: 16px;
-    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+    /* -webkit-text-stroke: 0.2px rgb(0, 0, 0); */
     position: relative;
+    font-weight: lighter;
 }
 
 .color-boxs {
@@ -409,7 +411,7 @@ h5 {
 .color-box {
     width: 125px;
     height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(194, 192, 192, 0.3);
     margin: 10px;
     background-color: transparent;
     backdrop-filter: blur(35px);

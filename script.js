@@ -50,6 +50,7 @@ canvas.addEventListener("click", function (event) {
   h1Element.style.webkitTextFillColor = "transparent";
 });
 
+// draw the color wheel
 for (let angle = 0; angle < 360; angle += 1) {
   const startAngle = ((angle - 2) * Math.PI) / 180;
   const endAngle = (angle * Math.PI) / 180;
@@ -68,7 +69,7 @@ for (let angle = 0; angle < 360; angle += 1) {
 
 const appContainer = document.querySelector(".app-container");
 
-// Ensure the appContainer has a position of absolute or fixed
+// appContainer needs to have a position set to absolute in order for the draggable functionality to work
 appContainer.style.position = "absolute";
 
 let mouseDown = false;
