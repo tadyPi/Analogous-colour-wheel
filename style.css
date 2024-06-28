@@ -203,10 +203,8 @@ header {
     position: absolute;
     left: 2.2rem;
     max-width: 600px;
-    /* New styles for gradient text */
     background: transparent;
     line-height: 1.5;
-    text-shadow: 0.1px 0.9 1px rgb(167, 234, 130);
 }
 
 .mainH2 {
@@ -217,7 +215,6 @@ header {
     position: absolute;
     left: 2.2rem;
     max-width: 400px;
-    /* New styles for gradient text */
     background: transparent;
     line-height: 1.5;
 }
@@ -235,7 +232,7 @@ header {
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
-    animation: gradientAnimation 5s linear infinite;
+    animation: gradientAnimation 5s normal infinite;
     -webkit-text-stroke: .2px rgb(180, 175, 175);
 
 }
@@ -252,19 +249,20 @@ header {
 
 .mainH2 {
     background: linear-gradient(to left,
-            rgba(84, 85, 85, 0.7),
-            rgba(81, 81, 82, 0.7),
-            rgba(39, 41, 44, 0.7),
-            rgb(162, 239, 220),
-            rgba(77, 78, 81, 0.7),
-            rgba(81, 81, 82, 0.7),
-            rgba(84, 85, 85, 0.7));
+            rgba(9, 9, 9, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(18, 18, 18, 0.7),
+            rgb(188, 232, 221),
+            rgb(188, 232, 221),
+            rgba(18, 18, 18, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(9, 9, 9, 0.7));
 
 
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
-    animation: gradientAnimation 5s linear infinite;
+    animation: gradientAnimation 5s alternate infinite;
     -webkit-text-stroke: .2px rgb(180, 175, 175);
 
 }
@@ -1017,8 +1015,7 @@ h6 {
     }
 
     .span-hello {
-        color: #000000;
-        -webkit-text-stroke: 0.5px #d1d0d0ab;
+        color: #edeaea;
         font-size: 1rem;
         top: 14rem;
         left: -2.25rem;
