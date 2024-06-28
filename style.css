@@ -252,13 +252,13 @@ header {
 
 .mainH2 {
     background: linear-gradient(to left,
-            rgba(84, 85, 85, 0.1),
-            rgba(81, 81, 82, 0.1),
-            rgba(239, 157, 227, 0.7),
-            rgba(233, 240, 130, 0.7),
-            rgba(130, 174, 240, 0.7),
-            rgba(81, 81, 82, 0.1),
-            rgba(84, 85, 85, 0.1));
+            rgba(84, 85, 85, 0.7),
+            rgba(81, 81, 82, 0.7),
+            rgba(39, 41, 44, 0.7),
+            rgb(162, 239, 220),
+            rgba(77, 78, 81, 0.7),
+            rgba(81, 81, 82, 0.7),
+            rgba(84, 85, 85, 0.7));
 
 
     background-clip: text;
@@ -1020,7 +1020,7 @@ h6 {
         color: #000000;
         -webkit-text-stroke: 0.5px #d1d0d0ab;
         font-size: 1rem;
-        top: 13rem;
+        top: 14rem;
         left: -2.25rem;
         position: relative;
     }
