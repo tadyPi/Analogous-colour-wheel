@@ -11,4 +11,10 @@ progressively moving through the color wheel to create a gradient in its natural
 
 
 
+
+
+
+
+
+
 ![Figma-vsCode-NextJs](https://github.com/tadyPi/Analogous-colour-wheel/assets/129111332/84160f8a-2f28-4e44-9abc-9c6bc5a57d36)
