@@ -211,7 +211,6 @@ header {
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    top: 39rem;
     position: absolute;
     left: 2.2rem;
     max-width: 400px;
@@ -249,14 +248,14 @@ header {
 
 .mainH2 {
     background: linear-gradient(to left,
-            rgba(9, 9, 9, 0.7),
-            rgba(0, 0, 0, 0.7),
-            rgba(18, 18, 18, 0.7),
-            rgb(232, 188, 226),
-            rgb(188, 232, 221),
-            rgba(18, 18, 18, 0.7),
-            rgba(0, 0, 0, 0.7),
-            rgba(9, 9, 9, 0.7));
+            rgba(9, 9, 9, 0.5),
+            rgba(0, 0, 0, 0.5),
+            rgba(18, 18, 18, 0.5),
+            rgb(214, 188, 232),
+            rgb(186, 144, 248),
+            rgba(18, 18, 18, 0.5),
+            rgba(0, 0, 0, 0.5),
+            rgba(9, 9, 9, 0.5));
 
 
     background-clip: text;
@@ -289,6 +288,7 @@ header {
     top: 10rem;
     left: 2.2rem;
     max-width: 400px;
+    margin-top: 2rem;
 }
 
 
@@ -432,7 +432,7 @@ h6 {
 
 .mainH2 {
     position: absolute;
-    top: 43rem;
+    top: 46rem;
     left: 2.2rem;
 }
 
