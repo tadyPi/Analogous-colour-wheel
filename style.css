@@ -137,7 +137,7 @@ header {
 .navbar {
     display: flex;
     position: relative;
-    left: 17%;
+    left: 21%;
 }
 
 .navbar a {
@@ -220,21 +220,21 @@ header {
 
 .mainH1 {
     background: linear-gradient(to left,
-            rgba(84, 85, 85, 0.1),
-            rgba(81, 81, 82, 0.1),
-            rgba(44, 115, 117, 0.7),
-            rgba(68, 174, 178, 0.7),
-            rgba(124, 212, 217, 0.7),
-            rgba(66, 152, 155, 0.7),
-            rgba(44, 115, 117, 0.7),
-            rgba(81, 81, 82, 0.1),
-            rgba(84, 85, 85, 0.1));
+            rgba(181, 181, 182, 0.5),
+            rgba(181, 181, 182, 0.5),
+            rgb(0, 109, 255),
+            rgba(250, 202, 166, 0.7),
+            rgba(0, 182, 255, 0.7),
+            rgba(250, 202, 166, 0.7),
+            rgba(167, 88, 96, 0.7),
+            rgba(181, 181, 182, 0.5),
+            rgba(181, 181, 182, 0.5));
 
 
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
-    animation: gradientAnimation 5s normal infinite;
+    animation: gradientAnimation 5s alternate-reverse infinite;
     -webkit-text-stroke: .2px rgb(180, 175, 175);
 
 }
@@ -260,10 +260,11 @@ header {
             rgba(9, 9, 9, 0.5));
 
 
+
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
-    animation: gradientAnimation 5s alternate infinite;
+    animation: gradientAnimation 5s both infinite;
     -webkit-text-stroke: .2px rgb(180, 175, 175);
 
 }
