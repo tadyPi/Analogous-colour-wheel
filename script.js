@@ -44,7 +44,7 @@ canvas.addEventListener("click", function (event) {
   }
 
   // update h1 gradient with selected and complementary colors
-  const h1Element = document.querySelector(".LoadOfPixel");
+  const h1Element = document.querySelector(".mainH1");
   h1Element.style.background = `linear-gradient(to right, ${selectedColor}, ${complementaryColor1}, ${complementaryColor2})`;
   h1Element.style.webkitBackgroundClip = "text";
   h1Element.style.webkitTextFillColor = "transparent";
