@@ -827,7 +827,7 @@ h6 {
         margin: 0px;
         min-width: 300px;
         /* height: 42em; */
-        top: 20%;
+        top: 6%;
         left: 50%;
         transform: translate(-50%, 0%);
     }
@@ -987,6 +987,7 @@ h6 {
     }
 
     .app-container h1 {
+        height: 673px;
         top: 1rem;
         height: fit-content;
         position: absolute;
@@ -1003,10 +1004,12 @@ h6 {
     #color-wheel {
         position: absolute;
         top: 8.3rem;
+        width: 200px;
+        height: 200px;
     }
 
     #color-boxes {
-        top: 6.5rem;
+        top: 8.5rem;
     }
 
     .color-boxs {
@@ -1024,15 +1027,15 @@ h6 {
     .span-hello {
         color: #edeaea;
         font-size: 1rem;
-        top: 14rem;
-        left: -2.25rem;
+        top: 13rem;
+        left: -4.25rem;
         position: relative;
     }
 
 }
 
 /* Media query for screens smaller than 320px */
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
     body {
         display: flex;
         flex-direction: column;
@@ -1096,13 +1099,13 @@ h6 {
 
     #color-wheel {
         position: relative;
-        top: -3rem;
+        top: 1.6rem;
     }
 
 
 
     #color-boxes {
-        top: -70px;
+        top: 28px;
         background-color: #b3b1b1;
         border: 1px solid rgb(218, 215, 215);
 
@@ -1126,4 +1129,12 @@ h6 {
         color: rgb(67, 64, 67);
     }
 
-} */
+    .span-hello {
+        color: #1a1a1a;
+        font-size: 1rem;
+        top: 6.4rem;
+        left: -4.75rem;
+        position: relative;
+    }
+
+}
