@@ -306,8 +306,8 @@ header {
     backdrop-filter: blur(35px);
     border: 1px solid rgba(41, 41, 41, 0.7);
     border-radius: 3px;
-    left: 50%;
-    top: 20%;
+    left: 55%;
+    top: 10%;
     /* transform: translate(-50%, -50%); */
     /* margin-top: 5rem; */
     transform: translate(-50%, 0%);
