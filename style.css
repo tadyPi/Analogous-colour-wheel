@@ -138,6 +138,7 @@ header {
     display: flex;
     position: relative;
     left: 21%;
+    gap: 0.5rem;
 }
 
 .navbar a {
@@ -166,7 +167,7 @@ header {
 }
 
 .h-right a:first-child {
-    color: #fcfdfd;
+    color: #f071e9;
     font-size: var(--p-font);
 }
 
@@ -181,7 +182,7 @@ header {
 }
 
 .h-right a:hover {
-    color: #fcfdfd;
+    color: #fcfd;
     transform: translateY(-3px);
 }
 
