@@ -670,17 +670,17 @@ h6 {
         align-items: center;
         justify-content: center;
         height: 35em;
-        width: 30vw;
+        width: 26vw;
         background-color: transparent;
         backdrop-filter: blur(35px);
         border: 1px solid rgba(103, 101, 101, 0.5);
         border-radius: 3px;
-        left: 60%;
-        top: 40%;
+        left: 68%;
+        top: 17%;
         /* transform: translate(-50%, -50%); */
         /* margin-top: 5rem; */
         transform: translate(-50%, 0%);
-        position: absolute;
+        position: relative;
         transition: left 0.2s ease-out, top 0.2s ease-out;
         user-select: none;
         cursor: move;
@@ -741,11 +741,11 @@ h6 {
     #color-wheel {
         display: block;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 170px;
+        height: 170px;
         cursor: crosshair;
         position: relative;
-        top: 3rem;
+        top: 3.3rem;
     }
 
 
@@ -756,7 +756,7 @@ h6 {
         /* or space-between */
         align-items: center;
         padding: 20px;
-        margin-bottom: -3rem;
+        margin-bottom: 0.9rem;
         border: 1px solid rgba(136, 136, 136, 0.3);
         background: transparent;
         backdrop-filter: blur(35px);
@@ -788,7 +788,14 @@ h6 {
         backdrop-filter: blur(35px);
         text-align: center;
         border-radius: 1px;
+    }
 
+    .span-hello {
+        color: #edeaea;
+        font-size: 0.9rem;
+        top: 1.6rem;
+        left: -4rem;
+        position: relative;
     }
 
 }
