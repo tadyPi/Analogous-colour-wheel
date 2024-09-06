@@ -450,6 +450,7 @@ h6 {
 /* Media query for screens smaller than 1024px */
 @media (max-width: 1024px) {
     body {
+        display: flex;
         margin: 0;
         padding: 0;
         height: 150vh;
@@ -512,7 +513,7 @@ h6 {
         position: absolute;
         text-align: right;
         color: #e8bbef;
-        font-size: 34.15px;
+        font-size: 1.8em;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         word-wrap: break-word;
@@ -530,11 +531,11 @@ h6 {
     }
 
     .CloudAndWebDevelopment {
-        left: 156px;
-        top: 45.98px;
+        left: 133px;
+        top: 38.98px;
         position: absolute;
         color: #E6E6E6;
-        font-size: 6.2px;
+        font-size: 5.4px;
         font-family: Open Sans;
         font-weight: 600;
         line-height: 7.61px;
@@ -544,7 +545,8 @@ h6 {
     .navbar {
         display: flex;
         position: relative;
-        left: 17%;
+        left: 15.5%;
+        gap: 0;
     }
 
     .navbar a {
@@ -651,9 +653,9 @@ h6 {
 
     .mainPara {
         color: #c6c3f0;
-        font-size: 24px;
+        font-size: 21px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
+        font-weight: 200;
         position: absolute;
         top: 12rem;
         left: 2.2rem;
@@ -709,7 +711,8 @@ h6 {
         padding: 10px 20px;
         border: 1px solid rgba(206, 206, 206, 0.3);
         font-family: 'Poppins', sans-serif;
-        top: 9px;
+        top: 3px;
+        height: auto;
     }
 
     .line-div {
@@ -738,12 +741,11 @@ h6 {
     #color-wheel {
         display: block;
         border-radius: 50%;
-        margin-bottom: 1em;
         width: 200px;
         height: 200px;
         cursor: crosshair;
         position: relative;
-        bottom: 1rem;
+        top: 3rem;
     }
 
 
@@ -759,8 +761,9 @@ h6 {
         background: transparent;
         backdrop-filter: blur(35px);
         position: relative;
-        bottom: 1.3rem;
+        top: 2.3rem;
         width: 200px;
+        height: 18rem;
     }
 
     h5 {
@@ -773,7 +776,7 @@ h6 {
 
     .color-boxs {
         border-radius: 1px;
-        top: -1rem;
+        top: 3rem;
     }
 
     .color-box {
