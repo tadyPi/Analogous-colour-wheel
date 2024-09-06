@@ -308,7 +308,7 @@ header {
     border: 1px solid rgba(41, 41, 41, 0.7);
     border-radius: 3px;
     left: 55%;
-    top: 10%;
+    top: 12%;
     /* transform: translate(-50%, -50%); */
     /* margin-top: 5rem; */
     transform: translate(-50%, 0%);
@@ -414,7 +414,7 @@ h5 {
     height: 50px;
     border: 1px solid rgba(194, 192, 192, 0.3);
     margin: 10px;
-    background-color: transparent;
+    background-color: #515050ab;
     backdrop-filter: blur(35px);
     text-align: center;
     border-radius: 1px;
