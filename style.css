@@ -372,9 +372,9 @@ h3 {
 #color-wheel {
     display: block;
     border-radius: 50%;
-    margin-bottom: 1em;
-    width: 200px;
-    height: 200px;
+    margin-top: 0.5rem;
+    width: 230px;
+    height: 230px;
     cursor: crosshair;
     position: relative;
     bottom: -0.4rem;
@@ -442,7 +442,7 @@ h6 {
 .span-hello {
     color: #edeaea;
     font-size: 1rem;
-    top: 4.8rem;
+    top: 4.2rem;
     left: -4.3rem;
     position: relative;
 }
