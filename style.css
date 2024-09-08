@@ -284,7 +284,7 @@ header {
 
 .mainPara {
     color: #c6c3f0;
-    font-size: 24px;
+    font-size: 23px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     position: absolute;
@@ -373,8 +373,8 @@ h3 {
     display: block;
     border-radius: 50%;
     margin-top: 0.5rem;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     cursor: crosshair;
     position: relative;
     bottom: -0.4rem;
@@ -442,7 +442,7 @@ h6 {
 .span-hello {
     color: #edeaea;
     font-size: 1rem;
-    top: 4.2rem;
+    top: 5.1rem;
     left: -4.3rem;
     position: relative;
 }
@@ -745,7 +745,7 @@ h6 {
         height: 170px;
         cursor: crosshair;
         position: relative;
-        top: 3.3rem;
+        top: 2.4rem;
     }
 
 
@@ -792,9 +792,9 @@ h6 {
 
     .span-hello {
         color: #edeaea;
-        font-size: 0.9rem;
-        top: 1.6rem;
-        left: -4rem;
+        font-size: 0.88rem;
+        top: 1.9rem;
+        left: -3.8rem;
         position: relative;
     }
 
@@ -865,7 +865,7 @@ h6 {
 
 
 /* Media query for screens smaller than 476px */
-@media (max-width: 476px) {
+/* @media (max-width: 476px) {
     body {
         display: flex;
         background-color: #000000;
@@ -892,7 +892,7 @@ h6 {
     .app-container {
         margin: 0px;
         width: 370px;
-        height: 881px;
+        height: 750px;
         top: 0%;
     }
 
@@ -913,16 +913,33 @@ h6 {
     }
 
     h3 {
-        top: 1%;
-        margin-left: 23%;
+        top: 3%;
+        margin-left: 8%;
     }
 
-    .color-boxs {
+    #color-wheel {
+        position: absolute;
+        top: 6.3rem;
+        width: 200px;
+        height: 200px;
+    }
+
+    .color-boxes {
         position: relative;
+        top: 7.3rem;
         margin: 0px 5px 0px 5px;
         background-color: #1e1e1e;
     }
-}
+
+
+
+    .span-hello {
+        color: #edeaea;
+        top: 6.6rem;
+        left: -6.5rem;
+        position: relative;
+    }
+} */
 
 /* Media query for screens smaller than 425px */
 @media (max-width: 425px) {
