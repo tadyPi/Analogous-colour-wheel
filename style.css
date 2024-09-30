@@ -220,7 +220,7 @@ header {
 }
 
 .mainH1 {
-    background: linear-gradient(to left,
+    /* background: linear-gradient(to left,
             rgba(181, 181, 182, 0.5),
             rgba(181, 181, 182, 0.5),
             rgba(167, 88, 96, 0.7),
@@ -228,11 +228,11 @@ header {
             rgba(250, 202, 166, 0.7),
             rgba(167, 88, 96, 0.7),
             rgba(181, 181, 182, 0.5),
-            rgba(181, 181, 182, 0.5));
+            rgba(181, 181, 182, 0.5)); */
 
 
     background-clip: text;
-    color: transparent;
+    color: #fcfdfd;
     background-size: 200% auto;
     animation: gradientAnimation 5s alternate-reverse infinite;
     -webkit-text-stroke: .2px rgb(180, 175, 175);
@@ -254,6 +254,8 @@ header {
             rgba(9, 9, 9, 0.5),
             rgba(0, 0, 0, 0.5),
             rgba(18, 18, 18, 0.5),
+            rgb(208, 222, 224),
+            rgb(208, 222, 224),
             rgb(208, 222, 224),
             rgba(18, 18, 18, 0.5),
             rgba(0, 0, 0, 0.5),
@@ -283,7 +285,7 @@ header {
 
 
 .mainPara {
-    color: #c6c3f0;
+    color: #b6b5d0;
     font-size: 23px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
