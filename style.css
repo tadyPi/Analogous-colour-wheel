@@ -218,17 +218,6 @@ header {
 }
 
 .mainH1 {
-    /* background: linear-gradient(to left,
-            rgba(181, 181, 182, 0.5),
-            rgba(181, 181, 182, 0.5),
-            rgba(167, 88, 96, 0.7),
-            rgba(250, 202, 166, 0.7),
-            rgba(250, 202, 166, 0.7),
-            rgba(167, 88, 96, 0.7),
-            rgba(181, 181, 182, 0.5),
-            rgba(181, 181, 182, 0.5)); */
-
-
     background-clip: text;
     color: #fcfdfd;
     background-size: 200% auto;
@@ -1047,7 +1036,7 @@ h6 {
         color: #edeaea;
         font-size: 1rem;
         top: 13rem;
-        left: -4.25rem;
+        left: 0;
         position: relative;
     }
 
