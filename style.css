@@ -445,7 +445,7 @@ h6 {
         height: 150vh;
 
         background-size: 200% 200%;
-        background-image: linear-gradient(15deg, #2a2a2a, #212222, #020017, #2b2929);
+        background-image: linear-gradient(264deg, #454444, #626666, #606060, #937878);
     }
 
     header {
@@ -1047,7 +1047,7 @@ h6 {
     body {
         display: flex;
         flex-direction: column;
-        background: #2a2b2b;
+        background: #4c5959;
         padding: 0;
         margin: 0;
         position: relative;
@@ -1079,8 +1079,11 @@ h6 {
         align-items: center;
         justify-content: center;
         max-width: 310px;
-        background-color: #b7b7b7;
-        margin: 0;
+        background-color: #313131;
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(212, 209, 209, 0.7);
+        border-radius: 3px;
+        margin: 1rem 0 2rem 0;
         padding: 0;
         top: 0;
         left: 50%;
@@ -1089,8 +1092,8 @@ h6 {
     .app-container h1 {
         top: 1rem;
         height: fit-content;
-        color: rgb(67, 64, 67);
-        background-color: rgb(171, 171, 171);
+        color: rgb(253, 239, 253);
+        background-color: rgb(56, 55, 55);
         border: 1px solid rgb(146, 146, 146);
 
     }
@@ -1103,15 +1106,14 @@ h6 {
     h3 {
         padding: 0 6px;
         margin-left: 4%;
-        color: rgb(31, 30, 30);
+        color: #fcfdfd;
         top: 2rem;
-        background-color: #fcfdfd;
-        border: solid 1px rgb(146, 146, 146);
+        background-color: #362f2f;
     }
 
     #color-wheel {
         position: relative;
-        top: 1.6rem;
+        top: 0.8rem;
         max-width: 200px;
         max-height: 200px;
     }
@@ -1120,9 +1122,9 @@ h6 {
 
     #color-boxes {
         top: 28px;
-        background-color: rgb(171, 171, 171);
-        border: 2px solid rgb(146, 149, 146);
-        border-radius: 3px;
+        background-color: rgb(49 47 47);
+        border: 1px solid rgb(98, 99, 98);
+        border-radius: 1px;
 
     }
 
@@ -1133,11 +1135,11 @@ h6 {
 
     .color-box {
         border: 1px solid rgb(97, 98, 97);
-        background-color: #959595ab;
+        background-color: #4b4949ab;
     }
 
     h5 {
-        color: rgb(33, 33, 33);
+        color: rgb(199, 199, 199);
     }
 
     h6 {
@@ -1146,10 +1148,11 @@ h6 {
     }
 
     .span-hello {
-        color: #1a1a1a;
+        color: #c4a1e5;
+        font-weight: 300;
         font-size: 1rem;
         top: 6.5rem;
-        left: -4.5rem;
+        left: 0;
         position: relative;
     }
 
