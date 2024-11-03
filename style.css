@@ -74,11 +74,11 @@ header {
     left: 3rem;
     top: 2px;
     position: absolute;
+    transition: transform 0.5s ease-in-out;
 }
 
 .logo:hover {
     transform: scale(1.1);
-    transition: transform 0.7s ease-in-out;
 }
 
 .Frame103 {
@@ -443,9 +443,8 @@ h6 {
         margin: 0;
         padding: 0;
         height: 150vh;
-
         background-size: 200% 200%;
-        background-image: linear-gradient(264deg, #454444, #626666, #606060, #937878);
+        background-image: linear-gradient(90deg, #454444, #626666, #606060, #937878);
     }
 
     header {
@@ -455,7 +454,6 @@ h6 {
         z-index: 1000;
         width: 100vw;
         height: 60px;
-        background: transparent;
         padding: 27px 17%;
         display: flex;
         align-items: center;
@@ -502,7 +500,7 @@ h6 {
         position: absolute;
         text-align: right;
         color: #e8bbef;
-        font-size: 1.8em;
+        font-size: 1.5em;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         word-wrap: break-word;
@@ -520,11 +518,11 @@ h6 {
     }
 
     .CloudAndWebDevelopment {
-        left: 133px;
-        top: 38.98px;
+        left: 118px;
+        top: 32px;
         position: absolute;
         color: #E6E6E6;
-        font-size: 5.4px;
+        font-size: 4.5px;
         font-family: Open Sans;
         font-weight: 600;
         line-height: 7.61px;
@@ -534,7 +532,7 @@ h6 {
     .navbar {
         display: flex;
         position: relative;
-        left: 15.5%;
+        left: 18.5%;
         gap: 0;
     }
 
@@ -545,7 +543,7 @@ h6 {
         font-weight: 300;
         margin: 5px 10px;
         transition: all 0.5s ease;
-        font-size: 13px;
+        font-size: 9px;
     }
 
     .navbar a:hover {
@@ -554,7 +552,7 @@ h6 {
 
     .h-right {
         position: relative;
-        left: 20%;
+        left: 25%;
         display: flex;
         align-items: center;
         white-space: nowrap;
@@ -566,7 +564,7 @@ h6 {
 
     .h-right a:first-child {
         color: #fcfdfd;
-        font-size: var(--p-font);
+        font-size: 0.7em;
     }
 
     .h-right a {
@@ -582,6 +580,12 @@ h6 {
     .h-right a:hover {
         color: #fcfdfc;
         transform: translateX(-3px);
+    }
+
+    .ri-linkedin-fill,
+    .ri-microsoft-fill,
+    .ri-github-fill {
+        font-size: 15px;
     }
 
     #menu-icon {
@@ -611,7 +615,8 @@ h6 {
     }
 
     .mainH1 {
-        background: linear-gradient(to right,
+        color: #fcfdfc;
+        /* background: linear-gradient(to right,
                 rgb(5, 119, 139),
                 rgb(239, 94, 213),
                 rgb(63, 51, 224),
@@ -625,16 +630,16 @@ h6 {
         color: transparent;
         background-size: 200% auto;
         animation: gradientAnimation 5s linear infinite;
-    }
+    } */
 
-    @keyframes gradientAnimation {
+        /* @keyframes gradientAnimation {
         0% {
             background-position: 200% 50%;
         }
 
         100% {
             background-position: 0% 50%;
-        }
+        } */
     }
 
 
@@ -646,7 +651,7 @@ h6 {
         font-family: 'Poppins', sans-serif;
         font-weight: 200;
         position: absolute;
-        top: 12rem;
+        top: 10rem;
         left: 2.2rem;
         max-width: 400px;
     }
@@ -664,8 +669,8 @@ h6 {
         backdrop-filter: blur(35px);
         border: 1px solid rgba(103, 101, 101, 0.5);
         border-radius: 3px;
-        left: 68%;
-        top: 17%;
+        left: 76%;
+        top: 23%;
         /* transform: translate(-50%, -50%); */
         /* margin-top: 5rem; */
         transform: translate(-50%, 0%);
@@ -693,7 +698,7 @@ h6 {
         display: flex;
         text-align: center;
         padding: 8px;
-        font-size: 0.85em;
+        font-size: 0.75em;
         font-weight: 500;
         max-width: 100%;
         /* border-radius: 5px; */
@@ -705,7 +710,7 @@ h6 {
     }
 
     .line-div {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         position: absolute;
@@ -718,10 +723,10 @@ h6 {
 
     h3 {
         color: #dadada;
-        font-size: 16px;
+        font-size: 14px;
         position: absolute;
-        left: 2rem;
-        margin-top: 4rem;
+        left: 1.7rem;
+        margin-top: 3.6rem;
         font-weight: bold;
         top: 0%;
     }
@@ -734,7 +739,7 @@ h6 {
         height: 170px;
         cursor: crosshair;
         position: relative;
-        top: 2.4rem;
+        top: 2.1rem;
     }
 
 
@@ -769,8 +774,8 @@ h6 {
     }
 
     .color-box {
-        width: 125px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         margin: 10px;
         background-color: transparent;
@@ -782,8 +787,8 @@ h6 {
     .span-hello {
         color: #edeaea;
         font-size: 0.88rem;
-        top: 1.9rem;
-        left: -3.8rem;
+        top: 1.7rem;
+        left: 0;
         position: relative;
     }
 
@@ -935,7 +940,7 @@ h6 {
     body {
         display: flex;
         flex-direction: column;
-        background: rgb(49, 49, 49);
+        background: rgb(47 47 47);
         padding: 0;
         margin: 0;
         /* position: absolute; */
@@ -975,7 +980,7 @@ h6 {
         justify-content: center;
         width: 80%;
         height: 750px;
-        background-color: #191b19;
+        background-color: #2e2e2e;
         margin: 0 0.5rem 0 0.5rem;
         padding: 0;
         top: 6%;
