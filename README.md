@@ -1,4 +1,4 @@
-# Analogous-colour-wheel, using HTML CSS and Javascript. Project is still in development.
+# Analogous-colour-wheel, using HTML CSS and Javascript.
 
 The term analogous refers to having analogy, or corresponding to something in particular.
 
